@@ -2,7 +2,7 @@ name: Actualización Diaria XM
 
 on:
   schedule:
-    - cron: '0 14 * * *' # Corre todos los días a las 14:00 UTC (9:00 AM Colombia)
+    - cron: '0 16 * * *' # Corre todos los días a las 16:00 UTC (11:00 AM Colombia)
   workflow_dispatch: # Permite ejecución manual desde GitHub
 
 permissions:

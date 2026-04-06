@@ -98,13 +98,19 @@ def send_whatsapp_report(conn, target_date_str):
         print("No Costo Marginal data found to send.")
         return
 
-    msg = f"⚡ *Predespacho Ideal XM*\n"
-    msg += f"📅 {target_date_str} - Costo Marginal\n\n"
+    # Convertir a kWh (dividir por 1000)
+    converted_records = [(hora, float(valor) / 1000.0) for hora, valor in records]
     
-    for hora, valor in records:
+    # Calcular promedio
+    avg_val = sum(v for h, v in converted_records) / len(converted_records) if converted_records else 0
+    avg_str = f"{avg_val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+    msg = f"⚡ *Predespacho Ideal XM*\n"
+    msg += f"📅 {target_date_str} - Promedio: ${avg_str}/kWh\n\n"
+    
+    for hora, valor in converted_records:
         start_hour = str(hora - 1).zfill(2)
         end_hour = str(hora).zfill(2)
-        # Formato de miles y decimales
         val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
         msg += f"🕒 {start_hour}-{end_hour}h: ${val_str}\n"
 

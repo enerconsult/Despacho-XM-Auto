@@ -98,16 +98,15 @@ def send_whatsapp_report(conn, target_date_str):
         print("No Costo Marginal data found to send.")
         return
 
-    msg = f"⚡ *Reporte Diario: Predespacho Ideal XM* ⚡\n"
-    msg += f"📅 *Fecha:* {target_date_str}\n\n"
-    msg += f"*Costo Marginal Estimado (COP/kWh):*\n"
+    msg = f"⚡ *Predespacho Ideal XM*\n"
+    msg += f"📅 {target_date_str} - Costo Marginal\n\n"
     
     for hora, valor in records:
         start_hour = str(hora - 1).zfill(2)
         end_hour = str(hora).zfill(2)
         # Formato de miles y decimales
         val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-        msg += f"🕛 {start_hour}:00 - {end_hour}:00 ➡️ $ {val_str}\n"
+        msg += f"🕒 {start_hour}-{end_hour}h: ${val_str}\n"
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     

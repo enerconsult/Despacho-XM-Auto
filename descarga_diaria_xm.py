@@ -84,6 +84,42 @@ def process_and_save(conn, file_type, text_content, target_date):
     
     conn.commit()
 
+def send_whatsapp_report(conn, target_date_str):
+    import json
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT Hora, Valor FROM iMAR_Data 
+        WHERE Fecha = ? AND Variable = 'Costo Marginal'
+        ORDER BY Hora
+    ''', (target_date_str,))
+    
+    records = cursor.fetchall()
+    if not records:
+        print("No Costo Marginal data found to send.")
+        return
+
+    msg = f"⚡ *Reporte Diario: Predespacho Ideal XM* ⚡\n"
+    msg += f"📅 *Fecha:* {target_date_str}\n\n"
+    msg += f"*Costo Marginal Estimado (COP/kWh):*\n"
+    
+    for hora, valor in records:
+        start_hour = str(hora - 1).zfill(2)
+        end_hour = str(hora).zfill(2)
+        # Formato de miles y decimales
+        val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        msg += f"🕛 {start_hour}:00 - {end_hour}:00 ➡️ $ {val_str}\n"
+
+    webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
+    
+    data = json.dumps({"texto": msg}).encode('utf-8')
+    req = urllib.request.Request(webhook_url, data=data, headers={'Content-Type': 'application/json'})
+    
+    try:
+        with urllib.request.urlopen(req) as response:
+            print("WhatsApp Webhook sent successfully. Make.com response:", response.read().decode('utf-8'))
+    except Exception as e:
+        print(f"Error sending webhook: {e}")
+
 def run_daily_job():
     conn = init_db()
     
@@ -117,6 +153,10 @@ def run_daily_job():
                 f2.write(imar_txt)
                 
             print("Data saved to SQLite successfully.")
+            
+            print("Sending WhatsApp report to Make.com...")
+            send_whatsapp_report(conn, target_date_str)
+            
             success = True
             break
         else:

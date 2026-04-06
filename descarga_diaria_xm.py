@@ -106,13 +106,13 @@ def send_whatsapp_report(conn, target_date_str):
     avg_str = f"{avg_val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
     msg = f"⚡ *Predespacho Ideal XM*\n"
-    msg += f"📅 {target_date_str} - Promedio: ${avg_str}/kWh\n\n"
+    msg += f"📅 {target_date_str} - Promedio: COP {avg_str}/kWh\n\n"
     
     for hora, valor in converted_records:
         start_hour = str(hora - 1).zfill(2)
         end_hour = str(hora).zfill(2)
         val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-        msg += f"🕒 {start_hour}-{end_hour}h: ${val_str}\n"
+        msg += f"🕒 {start_hour}-{end_hour}h: COP {val_str}\n"
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     

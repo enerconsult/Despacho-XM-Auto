@@ -105,7 +105,7 @@ def send_whatsapp_report(conn, target_date_str):
     avg_val = sum(v for h, v in converted_records) / len(converted_records) if converted_records else 0
     avg_str = f"{avg_val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
-    msg = f"⚡ *Predespacho Ideal XM*\n"
+    msg = f"🟢 *Enerconsult - Predespacho XM*\n"
     msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n\n"
     
     for hora, valor in converted_records:

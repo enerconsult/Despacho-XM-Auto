@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+Predespacho/
+download_files.py
+.venv/
+venv/
+env/
+.env

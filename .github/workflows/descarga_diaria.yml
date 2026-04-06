@@ -1,0 +1,32 @@
+name: Actualización Diaria XM
+
+on:
+  schedule:
+    - cron: '0 14 * * *' # Corre todos los días a las 14:00 UTC (9:00 AM Colombia)
+  workflow_dispatch: # Permite ejecución manual desde GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar Repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Ejecutar Script de Extracción
+        run: python descarga_diaria_xm.py
+
+      - name: Integrar y Subir Cambios (Commit)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "✅ Actualización diaria BD XM: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push

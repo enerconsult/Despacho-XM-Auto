@@ -21,7 +21,9 @@ jobs:
           python-version: '3.10'
 
       - name: Ejecutar Script de Extracción
-        run: python descarga_diaria_xm.py
+        run: |
+          pip install matplotlib pandas
+          python descarga_diaria_xm.py
 
       - name: Integrar y Subir Cambios (Commit)
         run: |

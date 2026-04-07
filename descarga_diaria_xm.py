@@ -84,6 +84,60 @@ def process_and_save(conn, file_type, text_content, target_date):
     
     conn.commit()
 
+def generar_dashboard(records, target_date_str, avg_str):
+    import matplotlib.pyplot as plt
+    try:
+        horas = [f"{str(h-1).zfill(2)}-{str(h).zfill(2)}h" for h, _ in records]
+        valores = [v for _, v in records]
+        
+        plt.style.use('dark_background')
+        fig = plt.figure(figsize=(16, 8), facecolor='#0F172A')
+        gs = fig.add_gridspec(1, 2, width_ratios=[2.5, 1])
+        
+        ax1 = fig.add_subplot(gs[0, 0], facecolor='#0F172A')
+        ax1.plot(horas, valores, color='#10B981', linewidth=3, marker='o', markersize=8)
+        ax1.fill_between(horas, valores, color='#10B981', alpha=0.2)
+        ax1.set_title(f'Predespacho XM - {target_date_str} (Promedio: $ {avg_str}/kWh)', fontsize=18, color='white', pad=20)
+        ax1.set_ylabel('Costo Marginal (COP/kWh)', fontsize=14, color='white')
+        ax1.tick_params(axis='x', rotation=45, colors='lightgray')
+        ax1.tick_params(axis='y', colors='lightgray')
+        ax1.grid(color='#334155', linestyle='--', alpha=0.5)
+        ax1.spines['top'].set_visible(False)
+        ax1.spines['right'].set_visible(False)
+        ax1.spines['bottom'].set_color('#475569')
+        ax1.spines['left'].set_color('#475569')
+        
+        ax2 = fig.add_subplot(gs[0, 1], facecolor='#0F172A')
+        ax2.axis('off')
+        table_data = [[h, f"$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")] for h, v in zip(horas, valores)]
+        col_labels = ['Periodo', 'COP/kWh']
+        table = ax2.table(cellText=table_data, colLabels=col_labels, loc='center', cellLoc='center')
+        table.auto_set_font_size(False)
+        table.set_fontsize(12)
+        table.scale(1, 1.8)
+        for (i, j), cell in table.get_celld().items():
+            cell.set_edgecolor('#334155')
+            if i == 0:
+                cell.set_facecolor('#1E293B')
+                cell.set_text_props(weight='bold', color='#10B981')
+            else:
+                cell.set_facecolor('#0F172A')
+                cell.set_text_props(color='white')
+                
+        plt.tight_layout()
+        img_dir = os.path.join(BASE_DIR, "Predespacho")
+        os.makedirs(img_dir, exist_ok=True)
+        img_path = os.path.join(img_dir, "Dashboard_Predespacho.png")
+        plt.savefig(img_path, dpi=150, bbox_inches='tight', facecolor='#0F172A')
+        plt.close()
+        
+        import time
+        ts = int(time.time())
+        return f"https://raw.githubusercontent.com/enerconsult/Despacho-XM-Auto/main/Predespacho/Dashboard_Predespacho.png?v={ts}"
+    except Exception as e:
+        print(f"Error generating dashboard: {e}")
+        return ""
+
 def send_whatsapp_report(conn, target_date_str):
     import json
     cursor = conn.cursor()
@@ -98,25 +152,23 @@ def send_whatsapp_report(conn, target_date_str):
         print("No Costo Marginal data found to send.")
         return
 
-    # Convertir a kWh (dividir por 1000)
     converted_records = [(hora, float(valor) / 1000.0) for hora, valor in records]
-    
-    # Calcular promedio
     avg_val = sum(v for h, v in converted_records) / len(converted_records) if converted_records else 0
     avg_str = f"{avg_val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
+    img_url = generar_dashboard(converted_records, target_date_str, avg_str)
+
     msg = f"🟢 *Enerconsult - Predespacho XM*\n"
-    msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n\n"
-    
-    for hora, valor in converted_records:
-        start_hour = str(hora - 1).zfill(2)
-        end_hour = str(hora).zfill(2)
-        val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-        msg += f"🕒 {start_hour}-{end_hour}h: $ {val_str}\n"
+    msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n"
+    msg += "Aquí tienes el reporte gráfico de hoy 📊"
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     
-    data = json.dumps({"texto": msg}).encode('utf-8')
+    payload = {"texto": msg}
+    if img_url:
+        payload["image_url"] = img_url
+        
+    data = json.dumps(payload).encode('utf-8')
     req = urllib.request.Request(webhook_url, data=data, headers={'Content-Type': 'application/json'})
     
     try:
@@ -159,6 +211,19 @@ def run_daily_job():
                 
             print("Data saved to SQLite successfully.")
             
+            # Subir a GitHub primero para asegurar que el enlace raw de la imagen exista para Make.com
+            try:
+                print("Commiting and pushing changes to GitHub to host the image...")
+                os.system('git config --local user.email "action@github.com"')
+                os.system('git config --local user.name "GitHub Action"')
+                os.system('git add -A')
+                os.system('git commit -m "✅ Actualizacion + Dashboard visual"')
+                os.system('git push')
+                import time
+                time.sleep(5)  # Dar margen a que los CDNs de GitHub indexen el nuevo archivo
+            except Exception as e:
+                print("Git push error:", e)
+
             print("Sending WhatsApp report to Make.com...")
             send_whatsapp_report(conn, target_date_str)
             

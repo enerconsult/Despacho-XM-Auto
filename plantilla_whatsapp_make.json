@@ -1,0 +1,98 @@
+{
+    "name": "Predespacho XM a WhatsApp (CallMeBot)",
+    "flow": [
+        {
+            "id": 1,
+            "module": "gateway:CustomWebHook",
+            "version": 1,
+            "parameters": {},
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 0
+                },
+                "restore": {}
+            }
+        },
+        {
+            "id": 2,
+            "module": "http:ActionMakeRequest",
+            "version": 3,
+            "parameters": {
+                "handleErrors": false,
+                "useMtls": false
+            },
+            "mapper": {
+                "url": "https://api.callmebot.com/whatsapp.php",
+                "method": "get",
+                "headers": [],
+                "qs": [
+                    {
+                        "name": "phone",
+                        "value": "AQUI_TU_TELEFONO"
+                    },
+                    {
+                        "name": "text",
+                        "value": "{{1.texto}}"
+                    },
+                    {
+                        "name": "apikey",
+                        "value": "AQUI_TU_API_KEY"
+                    }
+                ],
+                "bodyType": "",
+                "serializeUrl": false,
+                "shareCookies": false,
+                "parseResponse": false,
+                "timeout": 1,
+                "useNewCerts": false,
+                "followRedirect": true,
+                "followAllRedirects": false,
+                "rejectUnauthorized": true
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 0
+                },
+                "restore": {
+                    "parameters": {
+                        "method": {
+                            "label": "GET"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "method",
+                        "type": "select",
+                        "label": "Method"
+                    },
+                    {
+                        "name": "url",
+                        "type": "url",
+                        "label": "URL"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": true,
+            "sequential": false,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        }
+    }
+}

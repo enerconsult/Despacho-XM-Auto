@@ -156,6 +156,20 @@ def send_whatsapp_report(conn, target_date_str):
 
     img_url = generar_dashboard(converted_records, target_date_str, avg_str)
 
+    # Ahora sí, subir a GitHub porque la nueva imagen ya se generó
+    import os
+    try:
+        print("Commiting and pushing changes to GitHub to host the new image...")
+        os.system('git config --local user.email "action@github.com"')
+        os.system('git config --local user.name "GitHub Action"')
+        os.system('git add -A')
+        os.system('git commit -m "✅ Actualizacion + Dashboard visual"')
+        os.system('git push')
+        import time
+        time.sleep(5)  # Dar margen a que los CDNs de GitHub indexen el nuevo archivo
+    except Exception as e:
+        print("Git push error:", e)
+
     msg = f"🟢 *Enerconsult - Predespacho XM*\n"
     msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n\n"
     
@@ -214,19 +228,6 @@ def run_daily_job():
                 
             print("Data saved to SQLite successfully.")
             
-            # Subir a GitHub primero para asegurar que el enlace raw de la imagen exista para Make.com
-            try:
-                print("Commiting and pushing changes to GitHub to host the image...")
-                os.system('git config --local user.email "action@github.com"')
-                os.system('git config --local user.name "GitHub Action"')
-                os.system('git add -A')
-                os.system('git commit -m "✅ Actualizacion + Dashboard visual"')
-                os.system('git push')
-                import time
-                time.sleep(5)  # Dar margen a que los CDNs de GitHub indexen el nuevo archivo
-            except Exception as e:
-                print("Git push error:", e)
-
             print("Sending WhatsApp report to Make.com...")
             send_whatsapp_report(conn, target_date_str)
             

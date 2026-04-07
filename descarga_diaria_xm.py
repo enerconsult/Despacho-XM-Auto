@@ -178,8 +178,6 @@ def send_whatsapp_report(conn, target_date_str):
         end_hour = str(hora).zfill(2)
         val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
         msg += f"🕒 {start_hour}-{end_hour}h: $ {val_str}\n"
-        
-    msg += f"\n📊 *Ver Reporte Visual Completo:*\n{img_url}"
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     

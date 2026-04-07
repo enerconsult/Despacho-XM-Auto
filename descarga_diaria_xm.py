@@ -125,15 +125,13 @@ def generar_dashboard(records, target_date_str, avg_str):
                 cell.set_text_props(color='white')
                 
         plt.tight_layout()
-        img_dir = os.path.join(BASE_DIR, "Predespacho")
-        os.makedirs(img_dir, exist_ok=True)
-        img_path = os.path.join(img_dir, "Dashboard_Predespacho.png")
+        img_path = os.path.join(BASE_DIR, "Dashboard_Predespacho.png")
         plt.savefig(img_path, dpi=150, bbox_inches='tight', facecolor='#0F172A')
         plt.close()
         
         import time
         ts = int(time.time())
-        return f"https://raw.githubusercontent.com/enerconsult/Despacho-XM-Auto/main/Predespacho/Dashboard_Predespacho.png?v={ts}"
+        return f"https://raw.githubusercontent.com/enerconsult/Despacho-XM-Auto/main/Dashboard_Predespacho.png?v={ts}"
     except Exception as e:
         print(f"Error generating dashboard: {e}")
         return ""

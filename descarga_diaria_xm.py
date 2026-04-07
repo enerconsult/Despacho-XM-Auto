@@ -91,23 +91,23 @@ def generar_dashboard(records, target_date_str, avg_str):
         valores = [v for _, v in records]
         
         plt.style.use('dark_background')
-        fig = plt.figure(figsize=(16, 8), facecolor='#0F172A')
+        fig = plt.figure(figsize=(16, 8), facecolor='#1a1b26')
         gs = fig.add_gridspec(1, 2, width_ratios=[2.5, 1])
         
-        ax1 = fig.add_subplot(gs[0, 0], facecolor='#0F172A')
-        ax1.plot(horas, valores, color='#10B981', linewidth=3, marker='o', markersize=8)
-        ax1.fill_between(horas, valores, color='#10B981', alpha=0.2)
-        ax1.set_title(f'Predespacho XM - {target_date_str} (Promedio: $ {avg_str}/kWh)', fontsize=18, color='white', pad=20)
-        ax1.set_ylabel('Costo Marginal (COP/kWh)', fontsize=14, color='white')
-        ax1.tick_params(axis='x', rotation=45, colors='lightgray')
-        ax1.tick_params(axis='y', colors='lightgray')
-        ax1.grid(color='#334155', linestyle='--', alpha=0.5)
+        ax1 = fig.add_subplot(gs[0, 0], facecolor='#1a1b26')
+        ax1.plot(horas, valores, color='#7aa2f7', linewidth=3, marker='o', markersize=8)
+        ax1.fill_between(horas, valores, color='#7aa2f7', alpha=0.2)
+        ax1.set_title(f'Predespacho XM - {target_date_str} (Promedio: $ {avg_str}/kWh)', fontsize=18, color='#c0caf5', pad=20)
+        ax1.set_ylabel('Costo Marginal (COP/kWh)', fontsize=14, color='#c0caf5')
+        ax1.tick_params(axis='x', rotation=45, colors='#c0caf5')
+        ax1.tick_params(axis='y', colors='#c0caf5')
+        ax1.grid(color='#414868', linestyle='--', alpha=0.5)
         ax1.spines['top'].set_visible(False)
         ax1.spines['right'].set_visible(False)
-        ax1.spines['bottom'].set_color('#475569')
-        ax1.spines['left'].set_color('#475569')
+        ax1.spines['bottom'].set_color('#414868')
+        ax1.spines['left'].set_color('#414868')
         
-        ax2 = fig.add_subplot(gs[0, 1], facecolor='#0F172A')
+        ax2 = fig.add_subplot(gs[0, 1], facecolor='#1a1b26')
         ax2.axis('off')
         table_data = [[h, f"$ {v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")] for h, v in zip(horas, valores)]
         col_labels = ['Periodo', 'COP/kWh']
@@ -116,17 +116,17 @@ def generar_dashboard(records, target_date_str, avg_str):
         table.set_fontsize(12)
         table.scale(1, 1.8)
         for (i, j), cell in table.get_celld().items():
-            cell.set_edgecolor('#334155')
+            cell.set_edgecolor('#414868')
             if i == 0:
-                cell.set_facecolor('#1E293B')
-                cell.set_text_props(weight='bold', color='#10B981')
+                cell.set_facecolor('#24283b')
+                cell.set_text_props(weight='bold', color='#7aa2f7')
             else:
-                cell.set_facecolor('#0F172A')
-                cell.set_text_props(color='white')
+                cell.set_facecolor('#1a1b26')
+                cell.set_text_props(color='#c0caf5')
                 
         plt.tight_layout()
         img_path = os.path.join(BASE_DIR, "Dashboard_Predespacho.png")
-        plt.savefig(img_path, dpi=150, bbox_inches='tight', facecolor='#0F172A')
+        plt.savefig(img_path, dpi=150, bbox_inches='tight', facecolor='#1a1b26')
         plt.close()
         
         import time

@@ -183,7 +183,10 @@ def send_whatsapp_report(conn, target_date_str):
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     
-    payload = {"texto": msg}
+    payload = {
+        "texto": msg,
+        "image_url": img_url
+    }
         
     data = json.dumps(payload).encode('utf-8')
     req = urllib.request.Request(webhook_url, data=data, headers={'Content-Type': 'application/json'})

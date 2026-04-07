@@ -157,14 +157,12 @@ def send_whatsapp_report(conn, target_date_str):
     img_url = generar_dashboard(converted_records, target_date_str, avg_str)
 
     msg = f"🟢 *Enerconsult - Predespacho XM*\n"
-    msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n"
-    msg += "Aquí tienes el reporte gráfico de hoy 📊"
+    msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n\n"
+    msg += f"📊 *Ver Reporte Visual Completo:*\n{img_url}"
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     
     payload = {"texto": msg}
-    if img_url:
-        payload["image_url"] = img_url
         
     data = json.dumps(payload).encode('utf-8')
     req = urllib.request.Request(webhook_url, data=data, headers={'Content-Type': 'application/json'})

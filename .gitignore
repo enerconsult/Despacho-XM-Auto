@@ -7,6 +7,6 @@ venv/
 env/
 .env
 
-# Archivos crudos diarios: ya se guardan en XM_Data.db, no se versionan para no inflar el repo
+# PrId ya se guarda en XM_Data.db y no lo consume nada mas, no se versiona para no inflar el repo.
+# iMAR*.txt SI se debe versionar: el dashboard de IndicadoresMEM lo lee directo por raw.githubusercontent.com
 PrId*.txt
-iMAR*.txt

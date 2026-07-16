@@ -6,3 +6,7 @@ download_files.py
 venv/
 env/
 .env
+
+# Archivos crudos diarios: ya se guardan en XM_Data.db, no se versionan para no inflar el repo
+PrId*.txt
+iMAR*.txt

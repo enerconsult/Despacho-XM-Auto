@@ -39,6 +39,18 @@ def init_db():
     conn.commit()
     return conn
 
+RETENTION_DAYS = 90
+
+def purge_old_data(conn, retention_days=RETENTION_DAYS):
+    """Elimina registros mas antiguos que retention_days para mantener XM_Data.db
+    bajo el limite de 100MB que impone GitHub para archivos versionados en git."""
+    cutoff = (datetime.date.today() - datetime.timedelta(days=retention_days)).strftime("%Y-%m-%d")
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM PrId_Data WHERE Fecha < ?", (cutoff,))
+    cursor.execute("DELETE FROM iMAR_Data WHERE Fecha < ?", (cutoff,))
+    conn.commit()
+    conn.execute("VACUUM")
+
 def download_file(year_month, filename):
     url = BASE_URL.format(year_month=year_month, filename=filename)
     try:
@@ -219,7 +231,8 @@ def run_daily_job():
         print(f"Successfully downloaded both files for {target_date_str}!")
         process_and_save(conn, 'PrId', prid_txt, target_date_str)
         process_and_save(conn, 'iMAR', imar_txt, target_date_str)
-        
+        purge_old_data(conn)
+
         with open(os.path.join(BASE_DIR, prid_name), 'w', encoding='utf-8') as f1:
             f1.write(prid_txt)
         with open(os.path.join(BASE_DIR, imar_name), 'w', encoding='utf-8') as f2:

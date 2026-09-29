@@ -60,14 +60,30 @@ def purge_old_data(conn, retention_days=RETENTION_DAYS):
     conn.commit()
     conn.execute("VACUUM")
 
-def download_file(year_month, filename, url_tpl=BASE_URL):
+def download_file(year_month, filename, url_tpl=BASE_URL, intentos=4):
+    """Descarga un archivo del portal XM. Reintenta ante fallos momentáneos del portal o de la red,
+    para no enviar una alerta de 'no publicado' por una intermitencia."""
+    import time
     url = url_tpl.format(year_month=year_month, filename=filename)
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, context=ctx) as response:
-            return response.read().decode('utf-8')
-    except Exception as e:
-        return None
+    for i in range(1, intentos + 1):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, context=ctx, timeout=60) as response:
+                texto = response.read().decode('utf-8')
+                if texto.strip():
+                    return texto
+                motivo = "respuesta vacía"
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                print(f"  {filename}: no publicado (404)")
+                return None
+            motivo = f"HTTP {e.code}"
+        except Exception as e:
+            motivo = str(e) or repr(e)
+        print(f"  {filename}: intento {i}/{intentos} falló ({motivo})")
+        if i < intentos:
+            time.sleep(10 * i)
+    return None
 
 def process_and_save(conn, file_type, text_content, target_date):
     cursor = conn.cursor()

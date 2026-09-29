@@ -115,8 +115,6 @@ def generar_imagen(horario, fecha: str, ruta_png: str, escasez_sup: float | None
             celda.set_text_props(ha="left", color=TINTA)
             celda.PAD = 0.04
 
-    fig.text(0.99, 0.01, "Fuente: XM (iMAR, PrId, OFEI). Planta marginal inferida por Enerconsult.",
-             fontsize=9, color=TINTA_2, ha="right")
     fig.savefig(ruta_png, dpi=130, bbox_inches="tight", facecolor=FONDO)
     plt.close(fig)
     return ruta_png

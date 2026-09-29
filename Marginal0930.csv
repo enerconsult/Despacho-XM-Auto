@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-09-30,1,606529.39,455.39,606074.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,166.91,306.0,Alta,
+2026-09-30,2,567355.39,455.39,566900.0,MIEL I,Hidráulica (embalse),Agua,Agua,158.25,254.0,Alta,
+2026-09-30,3,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,530.32,546.0,Alta,
+2026-09-30,4,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,474.53,546.0,Alta,
+2026-09-30,5,567355.39,455.39,566900.0,MIEL I,Hidráulica (embalse),Agua,Agua,38.44,254.0,Alta,
+2026-09-30,6,606529.39,455.39,606074.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,148.99,306.0,Alta,
+2026-09-30,7,567355.39,455.39,566900.0,MIEL I,Hidráulica (embalse),Agua,Agua,99.27,254.0,Alta,
+2026-09-30,8,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,286.38,546.0,Alta,
+2026-09-30,9,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,18.16,546.0,Alta,
+2026-09-30,10,566624.39,455.39,566169.0,BETANIA,Hidráulica (embalse),Agua,Agua,359.51,468.0,Alta,
+2026-09-30,11,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,30.01,546.0,Alta,
+2026-09-30,12,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,172.23,546.0,Alta,
+2026-09-30,13,566955.39,455.39,566500.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,200.35,546.0,Alta,
+2026-09-30,14,606529.39,455.39,606074.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,6.68,306.0,Alta,
+2026-09-30,15,684883.39,455.39,684428.0,PORCE III,Hidráulica (embalse),Agua,Agua,143.68,660.0,Alta,
+2026-09-30,16,835636.39,455.39,835181.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,154.76,555.0,Alta,
+2026-09-30,17,835636.39,455.39,835181.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,543.45,555.0,Alta,
+2026-09-30,18,855123.39,455.39,854668.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,80.09,90.0,Alta,
+2026-09-30,19,1114249.39,455.39,1113794.0,TESORITO,Térmica,Gas natural,Gas,65.93,200.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-09-30,20,1114249.39,455.39,1113794.0,TESORITO,Térmica,Gas natural,Gas,107.16,200.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-09-30,21,1069311.39,455.39,1068856.0,FLORES I CC,Térmica,Gas natural,Gas,61.47,158.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-09-30,22,915911.39,455.39,915456.0,TEBSAB CC,Térmica,Gas natural,Gas,116.76,791.0,Alta,
+2026-09-30,23,835636.39,455.39,835181.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,196.68,555.0,Alta,
+2026-09-30,24,684883.39,455.39,684428.0,PORCE III,Hidráulica (embalse),Agua,Agua,292.24,660.0,Alta,

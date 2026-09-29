@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 16 * * *' # Corre todos los días a las 16:00 UTC (11:00 AM Colombia)
   workflow_dispatch: # Permite ejecución manual desde GitHub
+    inputs:
+      fecha:
+        description: 'Día a procesar (AAAA-MM-DD). Vacío = mañana, como la ejecución diaria'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -21,9 +26,15 @@ jobs:
           python-version: '3.10'
 
       - name: Ejecutar Script de Extracción
+        env:
+          FECHA: ${{ github.event.inputs.fecha }}
         run: |
           pip install matplotlib pandas
-          python descarga_diaria_xm.py
+          if [ -n "$FECHA" ]; then
+            python descarga_diaria_xm.py --fecha="$FECHA"
+          else
+            python descarga_diaria_xm.py
+          fi
 
       - name: Integrar y Subir Cambios (Commit)
         run: |

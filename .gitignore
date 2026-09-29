@@ -10,3 +10,6 @@ env/
 # PrId ya se guarda en XM_Data.db y no lo consume nada mas, no se versiona para no inflar el repo.
 # iMAR*.txt SI se debe versionar: el dashboard de IndicadoresMEM lo lee directo por raw.githubusercontent.com
 PrId*.txt
+
+# OFEI (ofertas iniciales): solo se usa para calcular la planta marginal, no se versiona
+OFEI*.txt

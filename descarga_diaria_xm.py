@@ -1,4 +1,6 @@
 import os
+import sys
+import json
 import sqlite3
 import datetime
 import urllib.request
@@ -9,7 +11,14 @@ from io import StringIO
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "XM_Data.db")
 BASE_URL = "https://api-portalxm.xm.com.co/administracion-archivos/ficheros/descarga-archivo?ruta=M:/InformacionAgentes/Usuarios/Publico/PredespachoIdeal/{year_month}/{filename}&nombreBlobContainer=storageportalxm"
+OFEI_URL = "https://api-portalxm.xm.com.co/administracion-archivos/ficheros/descarga-archivo?ruta=M:/InformacionAgentes/Usuarios/Publico/OFERTAS/INICIAL/{year_month}/{filename}&nombreBlobContainer=storageportalxm"
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
+MAESTRO_PATH = os.path.join(BASE_DIR, "maestro_recursos.csv")
+
+# --sin-envio: calcula y genera la imagen pero no hace git push ni envía el WhatsApp (para pruebas)
+# --fecha AAAA-MM-DD: procesa ese día en vez de mañana
+SIN_ENVIO = "--sin-envio" in sys.argv or os.getenv("SIN_ENVIO") == "1"
+FECHA_ARG = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--fecha=")), None)
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -51,8 +60,8 @@ def purge_old_data(conn, retention_days=RETENTION_DAYS):
     conn.commit()
     conn.execute("VACUUM")
 
-def download_file(year_month, filename):
-    url = BASE_URL.format(year_month=year_month, filename=filename)
+def download_file(year_month, filename, url_tpl=BASE_URL):
+    url = url_tpl.format(year_month=year_month, filename=filename)
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, context=ctx) as response:
@@ -148,8 +157,55 @@ def generar_dashboard(records, target_date_str, avg_str):
         print(f"Error generating dashboard: {e}")
         return ""
 
-def send_whatsapp_report(conn, target_date_str):
-    import json
+def obtener_escasez_sup():
+    """Último Precio de Escasez Superior (COP/kWh) publicado por XM, o None si no se puede consultar."""
+    hoy = datetime.date.today()
+    # El endpoint diario rechaza rangos de más de 30 días
+    body = json.dumps({"MetricId": "PrecEscaSup", "Entity": "Sistema",
+                       "StartDate": (hoy - datetime.timedelta(days=25)).isoformat(),
+                       "EndDate": hoy.isoformat()}).encode("utf-8")
+    req = urllib.request.Request("https://servapibi.xm.com.co/daily", data=body,
+                                 headers={"Content-Type": "application/json", **HEADERS})
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=60) as resp:
+            items = json.loads(resp.read().decode("utf-8")).get("Items", [])
+        valores = [float(e["Value"]) for it in items for e in it.get("DailyEntities", []) if e.get("Value")]
+        return valores[-1] if valores else None
+    except Exception as e:
+        print(f"No se pudo consultar PrecEscaSup: {e}")
+        return None
+
+
+def calcular_marginal(target_date_str, f_imar, f_prid, f_ofei):
+    """Planta marginal horaria con marginal_mem.py. Guarda MarginalMMDD.csv (lo lee el dashboard
+    IndicadoresMEM) y actualiza maestro_recursos.csv. Devuelve el DataFrame horario o None."""
+    try:
+        import pandas as pd
+        import marginal_mem as mm
+        maestro = (pd.read_csv(MAESTRO_PATH, dtype={"codigo_sic": str})
+                   if os.path.exists(MAESTRO_PATH) else None)
+        _, horario, _, maestro, sin_mapa, nuevos = mm.procesar_dia(f_imar, f_prid, f_ofei, None, maestro)
+        horario["fecha"] = target_date_str
+        mmdd = target_date_str[5:7] + target_date_str[8:10]
+        horario.to_csv(os.path.join(BASE_DIR, f"Marginal{mmdd}.csv"), index=False, encoding="utf-8")
+        maestro.to_csv(MAESTRO_PATH, index=False, encoding="utf-8-sig")
+        if nuevos:
+            print(f"[nuevo] recursos que no estaban en el maestro: {', '.join(nuevos)}")
+        if sin_mapa:
+            print(f"[i] unidades OFEI sin recurso asociado: {', '.join(sin_mapa)}")
+        print(f"Planta marginal: {horario['planta_marginal'].notna().sum()}/24 horas")
+        return horario
+    except Exception as e:
+        print(f"No se pudo calcular la planta marginal (se envía el reporte sin ella): {e}")
+        return None
+
+
+def url_imagen():
+    import time
+    return f"https://raw.githubusercontent.com/enerconsult/Despacho-XM-Auto/main/Dashboard_Predespacho.png?v={int(time.time())}"
+
+
+def send_whatsapp_report(conn, target_date_str, horario=None):
     cursor = conn.cursor()
     cursor.execute('''
         SELECT Hora, Valor FROM iMAR_Data 
@@ -166,30 +222,50 @@ def send_whatsapp_report(conn, target_date_str):
     avg_val = sum(v for h, v in converted_records) / len(converted_records) if converted_records else 0
     avg_str = f"{avg_val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
-    img_url = generar_dashboard(converted_records, target_date_str, avg_str)
+    # Imagen: gráfico con la planta marginal si se pudo calcular; si no, el gráfico simple anterior
+    plantas = {}
+    img_url = ""
+    if horario is not None:
+        try:
+            from imagen_marginal import generar_imagen
+            generar_imagen(horario, target_date_str, os.path.join(BASE_DIR, "Dashboard_Predespacho.png"),
+                           escasez_sup=obtener_escasez_sup())
+            img_url = url_imagen()
+            plantas = dict(zip(horario["hora"].astype(int), horario["planta_marginal"].fillna("")))
+        except Exception as e:
+            print(f"Error generando la imagen con planta marginal: {e}")
+    if not img_url:
+        img_url = generar_dashboard(converted_records, target_date_str, avg_str)
 
-    # Ahora sí, subir a GitHub porque la nueva imagen ya se generó
-    import os
-    try:
-        print("Commiting and pushing changes to GitHub to host the new image...")
-        os.system('git config --local user.email "action@github.com"')
-        os.system('git config --local user.name "GitHub Action"')
-        os.system('git add -A')
-        os.system('git commit -m "✅ Actualizacion + Dashboard visual"')
-        os.system('git push')
-        import time
-        time.sleep(5)  # Dar margen a que los CDNs de GitHub indexen el nuevo archivo
-    except Exception as e:
-        print("Git push error:", e)
+    if SIN_ENVIO:
+        print("[sin envío] Imagen generada en Dashboard_Predespacho.png; no se hace git push.")
+    else:
+        # Ahora sí, subir a GitHub porque la nueva imagen ya se generó
+        try:
+            print("Commiting and pushing changes to GitHub to host the new image...")
+            os.system('git config --local user.email "action@github.com"')
+            os.system('git config --local user.name "GitHub Action"')
+            os.system('git add -A')
+            os.system('git commit -m "✅ Actualizacion + Dashboard visual"')
+            os.system('git push')
+            import time
+            time.sleep(5)  # Dar margen a que los CDNs de GitHub indexen el nuevo archivo
+        except Exception as e:
+            print("Git push error:", e)
 
     msg = f"🟢 *Enerconsult - Predespacho XM*\n"
     msg += f"📅 {target_date_str} - Promedio: $ {avg_str}/kWh\n\n"
-    
+
     for hora, valor in converted_records:
         start_hour = str(hora - 1).zfill(2)
         end_hour = str(hora).zfill(2)
         val_str = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-        msg += f"🕒 {start_hour}-{end_hour}h: $ {val_str}\n"
+        planta = plantas.get(int(hora))
+        msg += f"🕒 {start_hour}-{end_hour}h: $ {val_str}" + (f" · {planta}" if planta else "") + "\n"
+
+    if SIN_ENVIO:
+        print("[sin envío] Mensaje que se enviaría:\n" + msg)
+        return
 
     webhook_url = "https://hook.us2.make.com/k2gh8wq6gimstrabg61p6ked7ahxxgjv"
     
@@ -212,23 +288,26 @@ def run_daily_job():
     
     today = datetime.date.today()
     tomorrow = today + datetime.timedelta(days=1)
-    
-    dt = tomorrow
+
+    dt = datetime.date.fromisoformat(FECHA_ARG) if FECHA_ARG else tomorrow
     year_month = dt.strftime("%Y-%m")
     mmdd = dt.strftime("%m%d")
-    
+
     target_date_str = dt.strftime("%Y-%m-%d")
-    
+
     prid_name = f"PrId{mmdd}_NAL.txt"
     imar_name = f"iMAR{mmdd}.txt"
-    
+    ofei_name = f"OFEI{mmdd}.txt"
+
     print(f"Trying to download data for schedule {target_date_str}...")
-    
+
+    # Los tres archivos del predespacho se descargan en la misma ejecución
     prid_txt = download_file(year_month, prid_name)
     imar_txt = download_file(year_month, imar_name)
-    
+    ofei_txt = download_file(year_month, ofei_name, OFEI_URL)
+
     if prid_txt and imar_txt:
-        print(f"Successfully downloaded both files for {target_date_str}!")
+        print(f"Successfully downloaded iMAR and PrId for {target_date_str}! OFEI: {'OK' if ofei_txt else 'no disponible'}")
         process_and_save(conn, 'PrId', prid_txt, target_date_str)
         process_and_save(conn, 'iMAR', imar_txt, target_date_str)
         purge_old_data(conn)
@@ -237,11 +316,20 @@ def run_daily_job():
             f1.write(prid_txt)
         with open(os.path.join(BASE_DIR, imar_name), 'w', encoding='utf-8') as f2:
             f2.write(imar_txt)
-            
+        if ofei_txt:
+            with open(os.path.join(BASE_DIR, ofei_name), 'w', encoding='utf-8') as f3:
+                f3.write(ofei_txt)
+
         print("Data saved to SQLite successfully.")
-        
+
+        from pathlib import Path
+        horario = (calcular_marginal(target_date_str, Path(BASE_DIR) / imar_name, Path(BASE_DIR) / prid_name,
+                                     Path(BASE_DIR) / ofei_name) if ofei_txt else None)
+
         print("Sending WhatsApp report to Make.com...")
-        send_whatsapp_report(conn, target_date_str)
+        send_whatsapp_report(conn, target_date_str, horario)
+    elif SIN_ENVIO:
+        print(f"[sin envío] Archivos no disponibles para {target_date_str}.")
     else:
         print(f"Files not available for {target_date_str}. Sending error hook...")
         import json

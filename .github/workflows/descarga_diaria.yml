@@ -31,4 +31,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git commit -m "✅ Actualización diaria BD XM: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git pull --rebase -X theirs
           git push

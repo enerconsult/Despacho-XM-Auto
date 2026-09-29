@@ -263,7 +263,11 @@ def send_whatsapp_report(conn, target_date_str, horario=None):
             os.system('git config --local user.name "GitHub Action"')
             os.system('git add -A')
             os.system('git commit -m "✅ Actualizacion + Dashboard visual"')
-            os.system('git push')
+            # Traer lo que se haya subido mientras corría (otra ejecución o un cambio de código) antes de
+            # subir; en un conflicto (p. ej. XM_Data.db) prevalece lo de esta ejecución, que es lo más nuevo.
+            os.system('git pull --rebase -X theirs')
+            if os.system('git push') != 0:
+                print("ADVERTENCIA: no se pudo subir la imagen; el WhatsApp puede llevar la imagen anterior.")
             import time
             time.sleep(5)  # Dar margen a que los CDNs de GitHub indexen el nuevo archivo
         except Exception as e:

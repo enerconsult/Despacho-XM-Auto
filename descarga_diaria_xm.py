@@ -48,7 +48,7 @@ def init_db():
     conn.commit()
     return conn
 
-RETENTION_DAYS = 90
+RETENTION_DAYS = 30
 
 def purge_old_data(conn, retention_days=RETENTION_DAYS):
     """Elimina registros mas antiguos que retention_days para mantener XM_Data.db

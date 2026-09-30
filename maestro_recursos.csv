@@ -238,6 +238,7 @@ GD FINCA ISABEL LOPEZ,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD FINCA ISABEL LOPEZ
 GD FINCA JM,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD FINCA JM,3NU4,GNYG,exacto,1.0,
 GD GALERAS OCCIDENTE,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD GALILEO SOLAR,DC,Solar fotovoltaica,Sol,SOL,O,0.999,GD GALILEO SOLAR,5MA4,GNYG,exacto,1.0,
+GD GARZA,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD GOLONDRINA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD GOLONDRINA,5J8I,SNCG,exacto,1.0,
 GD GRANJA LA RUBIELA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD GRANJA LA RUBIELA,4YL2,DUCG,exacto,1.0,
 GD GRANJA SAN PELAYO,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD GRANJA SAN PELAYO,5AUM,DUCG,exacto,1.0,
@@ -251,6 +252,7 @@ GD LA CATEDRAL,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LA CATEDRAL,5H1R,UNGG,exa
 GD LA HONDA,DC,Solar fotovoltaica,Sol,SOL,O,0.975,GD LA HONDA,3K6X,EPSG,exacto,1.0,
 GD LA HORMIGUITA,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LA MACANA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LA MACANA,5ISR,SUNG,exacto,1.0,
+GD LA PERDIZ,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LA URIBE,DC,Solar fotovoltaica,Sol,SOL,O,0.6,GD LA URIBE,3JP8,EPSG,exacto,1.0,
 GD LAS MERCEDES I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS MERCEDES I,5F42,FERG,exacto,1.0,
 GD LAS MERCEDES II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS MERCEDES II,5F6Z,FERG,exacto,1.0,

@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-04,1,647498.0,0.0,647498.0,BETANIA,Hidráulica (embalse),Agua,Agua,293.92,492.0,Alta,
+2026-10-04,2,647498.0,0.0,647498.0,BETANIA,Hidráulica (embalse),Agua,Agua,10.23,492.0,Alta,
+2026-10-04,3,625000.0,0.0,625000.0,MIEL I,Hidráulica (embalse),Agua,Agua,139.33,369.0,Alta,
+2026-10-04,4,610865.0,0.0,610865.0,CALIMA,Hidráulica (embalse),Agua,Agua,85.36,132.0,Alta,
+2026-10-04,5,585000.0,0.0,585000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,150.96,170.0,Alta,
+2026-10-04,6,585000.0,0.0,585000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,43.76,170.0,Alta,
+2026-10-04,7,540730.0,0.0,540730.0,URRA,Hidráulica (embalse),Agua,Agua,4.0,71.0,Alta,
+2026-10-04,8,499271.0,0.0,499271.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,128.88,130.0,Alta,
+2026-10-04,9,465000.0,0.0,465000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,212.68,546.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-04,10,465000.0,0.0,465000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,206.05,546.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-04,11,465000.0,0.0,465000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,214.93,546.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-04,12,465000.0,0.0,465000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,355.88,546.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-04,13,465000.0,0.0,465000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,536.27,546.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-04,14,508320.0,0.0,508320.0,PORCE III,Hidráulica (embalse),Agua,Agua,210.37,700.0,Alta,
+2026-10-04,15,508320.0,0.0,508320.0,PORCE III,Hidráulica (embalse),Agua,Agua,596.65,700.0,Alta,
+2026-10-04,16,564982.0,0.0,564982.0,ALBAN,Hidráulica (embalse),Agua,Agua,320.37,405.0,Alta,
+2026-10-04,17,625000.0,0.0,625000.0,MIEL I,Hidráulica (embalse),Agua,Agua,224.65,369.0,Alta,
+2026-10-04,18,721448.0,0.0,721448.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,25.08,306.0,Alta,
+2026-10-04,19,890000.0,0.0,890000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,622.97,1240.0,Alta,
+2026-10-04,20,890000.0,0.0,890000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,755.37,1240.0,Alta,
+2026-10-04,21,890000.0,0.0,890000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,793.53,1240.0,Alta,
+2026-10-04,22,890000.0,0.0,890000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,239.22,1240.0,Alta,
+2026-10-04,23,863080.0,0.0,863080.0,TESORITO,Térmica,Gas natural,Gas,175.51,200.0,Alta,
+2026-10-04,24,721448.0,0.0,721448.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,99.16,306.0,Alta,

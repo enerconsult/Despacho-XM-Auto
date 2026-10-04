@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-05,1,570272.3,272.3,570000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,372.14,546.0,Alta,
+2026-10-05,2,570272.3,272.3,570000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,85.5,546.0,Alta,
+2026-10-05,3,489893.3,272.3,489621.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,8.8,130.0,Alta,
+2026-10-05,4,454543.3,272.3,454271.0,URRA,Hidráulica (embalse),Agua,Agua,33.74,73.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,5,489893.3,272.3,489621.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,71.66,130.0,Alta,
+2026-10-05,6,570272.3,272.3,570000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,209.93,546.0,Alta,
+2026-10-05,7,570272.3,272.3,570000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,63.84,546.0,Alta,
+2026-10-05,8,435872.3,272.3,435600.0,PORCE III,Hidráulica (embalse),Agua,Agua,382.82,700.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,9,435872.3,272.3,435600.0,PORCE III,Hidráulica (embalse),Agua,Agua,149.45,700.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,10,435872.3,272.3,435600.0,PORCE III,Hidráulica (embalse),Agua,Agua,78.34,700.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,11,435872.3,272.3,435600.0,PORCE III,Hidráulica (embalse),Agua,Agua,239.76,700.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,12,435872.3,272.3,435600.0,PORCE III,Hidráulica (embalse),Agua,Agua,569.82,700.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,13,435872.3,272.3,435600.0,PORCE III,Hidráulica (embalse),Agua,Agua,660.26,700.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-05,14,570272.3,272.3,570000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,164.7,546.0,Alta,
+2026-10-05,15,610272.3,272.3,610000.0,MIEL I,Hidráulica (embalse),Agua,Agua,78.96,372.0,Alta,
+2026-10-05,16,629503.3,272.3,629231.0,BETANIA,Hidráulica (embalse),Agua,Agua,75.99,468.0,Alta,
+2026-10-05,17,629790.3,272.3,629518.0,PORCE II,Hidráulica (embalse),Agua,Agua,177.41,270.0,Alta,
+2026-10-05,18,713389.3,272.3,713117.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,286.84,306.0,Alta,
+2026-10-05,19,1074007.3,272.3,1073735.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,32.93,208.0,Alta,
+2026-10-05,20,1074007.3,272.3,1073735.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,92.69,208.0,Alta,
+2026-10-05,21,1074007.3,272.3,1073735.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,28.82,208.0,Alta,
+2026-10-05,22,868350.3,272.3,868078.0,TESORITO,Térmica,Gas natural,Gas,60.95,182.0,Alta,
+2026-10-05,23,629790.3,272.3,629518.0,PORCE II,Hidráulica (embalse),Agua,Agua,123.31,270.0,Alta,
+2026-10-05,24,629503.3,272.3,629231.0,BETANIA,Hidráulica (embalse),Agua,Agua,100.25,468.0,Alta,

@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-06,1,600206.57,1899.57,598307.0,BETANIA,Hidráulica (embalse),Agua,Agua,439.06,468.0,Alta,
+2026-10-06,2,600206.57,1899.57,598307.0,BETANIA,Hidráulica (embalse),Agua,Agua,68.77,468.0,Alta,
+2026-10-06,3,591899.57,1899.57,590000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,383.54,546.0,Alta,
+2026-10-06,4,591899.57,1899.57,590000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,247.59,546.0,Alta,
+2026-10-06,5,591899.57,1899.57,590000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,319.66,546.0,Alta,
+2026-10-06,6,600206.57,1899.57,598307.0,BETANIA,Hidráulica (embalse),Agua,Agua,2.76,468.0,Alta,
+2026-10-06,7,591899.57,1899.57,590000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,360.02,546.0,Alta,
+2026-10-06,8,436899.57,1899.57,435000.0,GUATRON,Hidráulica (embalse),Agua,Agua,323.44,363.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-06,9,436899.57,1899.57,435000.0,GUATRON,Hidráulica (embalse),Agua,Agua,36.36,363.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-06,10,431706.57,1899.57,429807.0,URRA,Hidráulica (embalse),Agua,Agua,4.06,74.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-06,11,436899.57,1899.57,435000.0,GUATRON,Hidráulica (embalse),Agua,Agua,94.06,363.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-06,12,436899.57,1899.57,435000.0,GUATRON,Hidráulica (embalse),Agua,Agua,347.1,363.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-06,13,492992.57,1899.57,491093.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,112.27,130.0,Alta,
+2026-10-06,14,591899.57,1899.57,590000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,508.51,546.0,Alta,
+2026-10-06,15,616899.57,1899.57,615000.0,MIEL I,Hidráulica (embalse),Agua,Agua,17.84,372.0,Alta,
+2026-10-06,16,638576.57,1899.57,636677.0,PORCE II,Hidráulica (embalse),Agua,Agua,184.15,270.0,Alta,
+2026-10-06,17,869891.57,1899.57,867992.0,TESORITO,Térmica,Gas natural,Gas,17.67,182.0,Alta,
+2026-10-06,18,901746.57,1899.57,899847.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,106.4,555.0,Alta,
+2026-10-06,19,970716.57,1899.57,968817.0,TEBSAB CC,Térmica,Gas natural,Gas,560.37,642.0,Alta,
+2026-10-06,20,970716.57,1899.57,968817.0,TEBSAB CC,Térmica,Gas natural,Gas,604.18,642.0,Alta,
+2026-10-06,21,970716.57,1899.57,968817.0,TEBSAB CC,Térmica,Gas natural,Gas,539.95,642.0,Alta,
+2026-10-06,22,901746.57,1899.57,899847.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,160.23,555.0,Alta,
+2026-10-06,23,710762.57,1899.57,708863.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,291.9,306.0,Alta,
+2026-10-06,24,638576.57,1899.57,636677.0,PORCE II,Hidráulica (embalse),Agua,Agua,3.95,270.0,Alta,

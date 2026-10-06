@@ -319,6 +319,13 @@ def run_daily_job():
     imar_name = f"iMAR{mmdd}.txt"
     ofei_name = f"OFEI{mmdd}.txt"
 
+    # Idempotencia: el reporte puede dispararse desde la VPS (apenas XM publica) y también por el
+    # cron de GitHub (respaldo). Si el iMAR de ese día ya está en el repo, el reporte ya se envió.
+    if not FECHA_ARG and not SIN_ENVIO and os.path.exists(os.path.join(BASE_DIR, imar_name)):
+        print(f"El reporte de {target_date_str} ya se envió ({imar_name} está en el repositorio). Nada que hacer.")
+        conn.close()
+        return
+
     print(f"Trying to download data for schedule {target_date_str}...")
 
     # Los tres archivos del predespacho se descargan en la misma ejecución

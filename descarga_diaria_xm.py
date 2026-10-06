@@ -333,8 +333,10 @@ def run_daily_job():
     imar_txt = download_file(year_month, imar_name)
     ofei_txt = download_file(year_month, ofei_name, OFEI_URL)
 
-    if prid_txt and imar_txt:
-        print(f"Successfully downloaded iMAR and PrId for {target_date_str}! OFEI: {'OK' if ofei_txt else 'no disponible'}")
+    # Sin OFEI no se puede calcular la planta marginal: se trata como "aún no publicado"
+    # para no enviar un reporte incompleto (la VPS lo envía apenas XM publique los 3).
+    if prid_txt and imar_txt and ofei_txt:
+        print(f"Successfully downloaded iMAR, PrId and OFEI for {target_date_str}!")
         process_and_save(conn, 'PrId', prid_txt, target_date_str)
         process_and_save(conn, 'iMAR', imar_txt, target_date_str)
         purge_old_data(conn)

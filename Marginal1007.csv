@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-07,1,701816.11,500.11,701316.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,49.16,306.0,Alta,
+2026-10-07,2,567696.11,500.11,567196.0,BETANIA,Hidráulica (embalse),Agua,Agua,390.59,474.0,Alta,
+2026-10-07,3,567696.11,500.11,567196.0,BETANIA,Hidráulica (embalse),Agua,Agua,100.63,474.0,Alta,
+2026-10-07,4,536642.11,500.11,536142.0,PORCE II,Hidráulica (embalse),Agua,Agua,227.63,270.0,Alta,
+2026-10-07,5,567696.11,500.11,567196.0,BETANIA,Hidráulica (embalse),Agua,Agua,21.38,474.0,Alta,
+2026-10-07,6,567696.11,500.11,567196.0,BETANIA,Hidráulica (embalse),Agua,Agua,241.77,474.0,Alta,
+2026-10-07,7,567696.11,500.11,567196.0,BETANIA,Hidráulica (embalse),Agua,Agua,87.59,474.0,Alta,
+2026-10-07,8,536642.11,500.11,536142.0,PORCE II,Hidráulica (embalse),Agua,Agua,11.31,270.0,Alta,
+2026-10-07,9,489056.11,500.11,488556.0,PLAYAS,Hidráulica (embalse),Agua,Agua,108.88,201.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-07,10,443595.11,500.11,443095.0,PORCE III,Hidráulica (embalse),Agua,Agua,547.07,676.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-07,11,443595.11,500.11,443095.0,PORCE III,Hidráulica (embalse),Agua,Agua,504.56,676.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-07,12,489056.11,500.11,488556.0,PLAYAS,Hidráulica (embalse),Agua,Agua,39.88,201.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-07,13,489056.11,500.11,488556.0,PLAYAS,Hidráulica (embalse),Agua,Agua,172.88,201.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-07,14,567696.11,500.11,567196.0,BETANIA,Hidráulica (embalse),Agua,Agua,47.7,474.0,Alta,
+2026-10-07,15,590500.11,500.11,590000.0,SOGAMOSO,Hidráulica (embalse),Agua,Agua,386.04,546.0,Alta,
+2026-10-07,16,616500.11,500.11,616000.0,MIEL I,Hidráulica (embalse),Agua,Agua,186.11,372.0,Alta,
+2026-10-07,17,724341.11,500.11,723841.0,CALIMA,Hidráulica (embalse),Agua,Agua,41.33,132.0,Alta,
+2026-10-07,18,853251.11,500.11,852751.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,351.32,555.0,Alta,
+2026-10-07,19,1097553.11,500.11,1097053.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,27.5,213.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-10-07,20,1097553.11,500.11,1097053.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,113.54,213.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-10-07,21,920932.11,500.11,920432.0,TEBSAB CC,Térmica,Gas natural,Gas,624.24,791.0,Alta,
+2026-10-07,22,853251.11,500.11,852751.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,413.87,555.0,Alta,
+2026-10-07,23,724341.11,500.11,723841.0,CALIMA,Hidráulica (embalse),Agua,Agua,1.26,132.0,Alta,
+2026-10-07,24,616500.11,500.11,616000.0,MIEL I,Hidráulica (embalse),Agua,Agua,187.07,372.0,Alta,

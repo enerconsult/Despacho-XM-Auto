@@ -254,6 +254,7 @@ GD LA HORMIGUITA,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0
 GD LA MACANA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LA MACANA,5ISR,SUNG,exacto,1.0,
 GD LA PERDIZ,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LA URIBE,DC,Solar fotovoltaica,Sol,SOL,O,0.6,GD LA URIBE,3JP8,EPSG,exacto,1.0,
+GD LAS MARGARITAS,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LAS MERCEDES I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS MERCEDES I,5F42,FERG,exacto,1.0,
 GD LAS MERCEDES II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS MERCEDES II,5F6Z,FERG,exacto,1.0,
 GD LAS PILONERAS,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS PILONERAS,5H1N,UNGG,exacto,1.0,

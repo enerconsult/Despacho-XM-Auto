@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-16,1,631658.0,0.0,631658.0,PORCE III,Hidráulica (embalse),Agua,Agua,141.38,700.0,Alta,
+2026-10-16,2,595000.0,0.0,595000.0,MIEL I,Hidráulica (embalse),Agua,Agua,180.74,372.0,Alta,
+2026-10-16,3,595000.0,0.0,595000.0,MIEL I,Hidráulica (embalse),Agua,Agua,19.79,372.0,Alta,
+2026-10-16,4,580808.0,0.0,580808.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,265.61,306.0,Alta,
+2026-10-16,5,595000.0,0.0,595000.0,MIEL I,Hidráulica (embalse),Agua,Agua,78.64,372.0,Alta,
+2026-10-16,6,619804.0,0.0,619804.0,PRADO,Hidráulica (embalse),Agua,Agua,16.59,48.0,Alta,
+2026-10-16,7,595000.0,0.0,595000.0,MIEL I,Hidráulica (embalse),Agua,Agua,279.88,372.0,Alta,
+2026-10-16,8,580808.0,0.0,580808.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,171.42,306.0,Alta,
+2026-10-16,9,438569.0,0.0,438569.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1244.43,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-16,10,438569.0,0.0,438569.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1026.42,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-16,11,438569.0,0.0,438569.0,GUAVIO,Hidráulica (embalse),Agua,Agua,988.31,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-16,12,438569.0,0.0,438569.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1125.05,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-16,13,456348.0,0.0,456348.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,91.02,130.0,Alta,
+2026-10-16,14,580808.0,0.0,580808.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,154.41,306.0,Alta,
+2026-10-16,15,631658.0,0.0,631658.0,PORCE III,Hidráulica (embalse),Agua,Agua,19.32,700.0,Alta,
+2026-10-16,16,631658.0,0.0,631658.0,PORCE III,Hidráulica (embalse),Agua,Agua,607.13,700.0,Alta,
+2026-10-16,17,816692.0,0.0,816692.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,41.91,555.0,Alta,
+2026-10-16,18,816692.0,0.0,816692.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,472.97,555.0,Alta,
+2026-10-16,19,1030000.0,0.0,1030000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,692.27,1240.0,Alta,
+2026-10-16,20,1030000.0,0.0,1030000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,744.33,1240.0,Alta,
+2026-10-16,21,1030000.0,0.0,1030000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,637.77,1240.0,Alta,
+2026-10-16,22,816692.0,0.0,816692.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,458.98,555.0,Alta,
+2026-10-16,23,730282.0,0.0,730282.0,CALIMA,Hidráulica (embalse),Agua,Agua,46.27,132.0,Alta,
+2026-10-16,24,631658.0,0.0,631658.0,PORCE III,Hidráulica (embalse),Agua,Agua,382.99,700.0,Alta,

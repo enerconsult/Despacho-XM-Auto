@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-18,1,560757.0,0.0,560757.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,166.53,306.0,Alta,
+2026-10-18,2,495994.0,0.0,495994.0,JAGUAS,Hidráulica (embalse),Agua,Agua,110.66,170.0,Alta,
+2026-10-18,3,441288.0,0.0,441288.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1089.75,1250.0,Alta,
+2026-10-18,4,441288.0,0.0,441288.0,GUAVIO,Hidráulica (embalse),Agua,Agua,889.23,1250.0,Alta,
+2026-10-18,5,441288.0,0.0,441288.0,GUAVIO,Hidráulica (embalse),Agua,Agua,770.06,1250.0,Alta,
+2026-10-18,6,441288.0,0.0,441288.0,GUAVIO,Hidráulica (embalse),Agua,Agua,646.91,1250.0,Alta,
+2026-10-18,7,441288.0,0.0,441288.0,GUAVIO,Hidráulica (embalse),Agua,Agua,13.89,1250.0,Alta,
+2026-10-18,8,410000.0,0.0,410000.0,GUATRON,Hidráulica (embalse),Agua,Agua,188.63,369.0,Alta,
+2026-10-18,9,392888.0,0.0,392888.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,394.73,400.0,Media (empate),GUAJIRA 2
+2026-10-18,10,392888.0,0.0,392888.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,260.35,400.0,Media (empate),GUAJIRA 2
+2026-10-18,11,392888.0,0.0,392888.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,235.47,400.0,Media (empate),GUAJIRA 2
+2026-10-18,12,392888.0,0.0,392888.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,262.82,400.0,Media (empate),GUAJIRA 2
+2026-10-18,13,410000.0,0.0,410000.0,GUATRON,Hidráulica (embalse),Agua,Agua,38.06,369.0,Alta,
+2026-10-18,14,410000.0,0.0,410000.0,GUATRON,Hidráulica (embalse),Agua,Agua,293.5,369.0,Alta,
+2026-10-18,15,411000.0,0.0,411000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,399.14,420.0,Alta,
+2026-10-18,16,441288.0,0.0,441288.0,GUAVIO,Hidráulica (embalse),Agua,Agua,662.13,1250.0,Alta,
+2026-10-18,17,495994.0,0.0,495994.0,JAGUAS,Hidráulica (embalse),Agua,Agua,137.7,170.0,Alta,
+2026-10-18,18,570000.0,0.0,570000.0,MIEL I,Hidráulica (embalse),Agua,Agua,63.59,375.0,Alta,
+2026-10-18,19,617584.0,0.0,617584.0,ALBAN,Hidráulica (embalse),Agua,Agua,395.33,405.0,Alta,
+2026-10-18,20,732259.0,0.0,732259.0,CALIMA,Hidráulica (embalse),Agua,Agua,130.61,132.0,Alta,
+2026-10-18,21,980000.0,0.0,980000.0,TESORITO,Térmica,Gas natural,Gas,38.0,200.0,Media (empate),SAN CARLOS
+2026-10-18,22,610583.0,0.0,610583.0,PORCE II,Hidráulica (embalse),Agua,Agua,356.85,405.0,Alta,
+2026-10-18,23,610583.0,0.0,610583.0,PORCE II,Hidráulica (embalse),Agua,Agua,11.89,405.0,Alta,
+2026-10-18,24,560757.0,0.0,560757.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,242.13,306.0,Alta,

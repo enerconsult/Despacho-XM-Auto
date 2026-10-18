@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-19,1,425099.0,0.0,425099.0,GUAVIO,Hidráulica (embalse),Agua,Agua,435.21,1250.0,Alta,
+2026-10-19,2,425099.0,0.0,425099.0,GUAVIO,Hidráulica (embalse),Agua,Agua,148.77,1250.0,Alta,
+2026-10-19,3,407405.0,0.0,407405.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,72.21,130.0,Alta,
+2026-10-19,4,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,398.45,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,5,407405.0,0.0,407405.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,125.65,130.0,Alta,
+2026-10-19,6,425099.0,0.0,425099.0,GUAVIO,Hidráulica (embalse),Agua,Agua,336.51,1250.0,Alta,
+2026-10-19,7,425099.0,0.0,425099.0,GUAVIO,Hidráulica (embalse),Agua,Agua,71.27,1250.0,Alta,
+2026-10-19,8,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,170.24,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,9,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,163.71,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,10,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,44.28,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,11,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,56.89,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,12,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,310.65,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,13,406000.0,0.0,406000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,413.87,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-19,14,425099.0,0.0,425099.0,GUAVIO,Hidráulica (embalse),Agua,Agua,409.24,1250.0,Alta,
+2026-10-19,15,425099.0,0.0,425099.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1093.23,1250.0,Alta,
+2026-10-19,16,454998.0,0.0,454998.0,BETANIA,Hidráulica (embalse),Agua,Agua,450.81,492.0,Alta,
+2026-10-19,17,552681.0,0.0,552681.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,254.11,306.0,Alta,
+2026-10-19,18,554800.0,0.0,554800.0,MIEL I,Hidráulica (embalse),Agua,Agua,167.63,375.0,Alta,
+2026-10-19,19,1134078.0,0.0,1134078.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,69.05,213.0,Alta,
+2026-10-19,20,1134078.0,0.0,1134078.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,91.42,213.0,Alta,
+2026-10-19,21,937653.0,0.0,937653.0,TESORITO,Térmica,Gas natural,Gas,157.71,163.0,Alta,
+2026-10-19,22,554800.0,0.0,554800.0,MIEL I,Hidráulica (embalse),Agua,Agua,189.74,375.0,Alta,
+2026-10-19,23,547770.0,0.0,547770.0,URRA,Hidráulica (embalse),Agua,Agua,82.16,216.0,Alta,
+2026-10-19,24,454998.0,0.0,454998.0,BETANIA,Hidráulica (embalse),Agua,Agua,102.72,492.0,Alta,

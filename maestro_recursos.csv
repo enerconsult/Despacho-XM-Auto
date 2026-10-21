@@ -249,6 +249,7 @@ GD GY SAN MARTIN II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre
 GD JARDINCITO,DC,Solar fotovoltaica,Sol,SOL,O,,,,,heurística por nombre,0.0,SI
 GD LA CACICA,DC,Solar fotovoltaica,Sol,SOL,O,,,,,heurística por nombre,0.0,SI
 GD LA CATEDRAL,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LA CATEDRAL,5H1R,UNGG,exacto,1.0,
+GD LA GENERALA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LA HONDA,DC,Solar fotovoltaica,Sol,SOL,O,0.975,GD LA HONDA,3K6X,EPSG,exacto,1.0,
 GD LA HORMIGUITA,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LA MACANA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LA MACANA,5ISR,SUNG,exacto,1.0,

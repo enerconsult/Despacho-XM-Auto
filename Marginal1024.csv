@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-24,1,546995.0,0.0,546995.0,PORCE III,Hidráulica (embalse),Agua,Agua,88.63,700.0,Alta,
+2026-10-24,2,510371.0,0.0,510371.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,66.66,306.0,Alta,
+2026-10-24,3,484493.0,0.0,484493.0,ALBAN,Hidráulica (embalse),Agua,Agua,208.91,400.0,Alta,
+2026-10-24,4,484493.0,0.0,484493.0,ALBAN,Hidráulica (embalse),Agua,Agua,32.53,400.0,Alta,
+2026-10-24,5,460000.0,0.0,460000.0,MIEL I,Hidráulica (embalse),Agua,Agua,370.65,381.0,Alta,
+2026-10-24,6,460000.0,0.0,460000.0,MIEL I,Hidráulica (embalse),Agua,Agua,370.45,381.0,Alta,
+2026-10-24,7,460000.0,0.0,460000.0,MIEL I,Hidráulica (embalse),Agua,Agua,145.46,381.0,Alta,
+2026-10-24,8,411680.0,0.0,411680.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,193.3,400.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-10-24,9,385000.0,0.0,385000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,336.48,420.0,Media (empate),"GUAJIRA 2, GUAJIRA 1"
+2026-10-24,10,385000.0,0.0,385000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,297.66,420.0,Media (empate),"GUAJIRA 2, GUAJIRA 1"
+2026-10-24,11,385000.0,0.0,385000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,158.38,420.0,Media (empate),"GUAJIRA 2, GUAJIRA 1"
+2026-10-24,12,385000.0,0.0,385000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,245.68,420.0,Media (empate),"GUAJIRA 2, GUAJIRA 1"
+2026-10-24,13,385000.0,0.0,385000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,311.41,420.0,Media (empate),"GUAJIRA 2, GUAJIRA 1"
+2026-10-24,14,411680.0,0.0,411680.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,62.44,400.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-10-24,15,432115.0,0.0,432115.0,GUAJIRA 1,Térmica,Mezcla gas-carbón,Carbón,129.5,145.0,Alta,
+2026-10-24,16,484493.0,0.0,484493.0,ALBAN,Hidráulica (embalse),Agua,Agua,120.93,400.0,Alta,
+2026-10-24,17,546995.0,0.0,546995.0,PORCE III,Hidráulica (embalse),Agua,Agua,279.75,700.0,Alta,
+2026-10-24,18,732174.0,0.0,732174.0,CALIMA,Hidráulica (embalse),Agua,Agua,5.12,132.0,Alta,
+2026-10-24,19,1096174.0,0.0,1096174.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,188.51,930.0,Alta,
+2026-10-24,20,1096174.0,0.0,1096174.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,163.52,930.0,Alta,
+2026-10-24,21,1096174.0,0.0,1096174.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,55.15,930.0,Alta,
+2026-10-24,22,732174.0,0.0,732174.0,CALIMA,Hidráulica (embalse),Agua,Agua,31.13,132.0,Alta,
+2026-10-24,23,546995.0,0.0,546995.0,PORCE III,Hidráulica (embalse),Agua,Agua,573.58,700.0,Alta,
+2026-10-24,24,546995.0,0.0,546995.0,PORCE III,Hidráulica (embalse),Agua,Agua,89.19,700.0,Alta,

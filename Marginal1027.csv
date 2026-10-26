@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-10-27,1,405428.58,917.58,404511.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,65.75,130.0,Alta,
+2026-10-27,2,387738.58,917.58,386821.0,BETANIA,Hidráulica (embalse),Agua,Agua,260.7,492.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,3,387738.58,917.58,386821.0,BETANIA,Hidráulica (embalse),Agua,Agua,29.56,492.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,4,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1159.86,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,5,387738.58,917.58,386821.0,BETANIA,Hidráulica (embalse),Agua,Agua,47.11,492.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,6,387738.58,917.58,386821.0,BETANIA,Hidráulica (embalse),Agua,Agua,410.74,492.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,7,387738.58,917.58,386821.0,BETANIA,Hidráulica (embalse),Agua,Agua,249.24,492.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,8,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1064.43,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,9,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,751.9,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,10,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,673.49,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,11,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,676.54,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,12,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,792.2,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,13,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,800.82,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,14,385654.58,917.58,384737.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1206.41,1250.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-10-27,15,428917.58,917.58,428000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,65.28,170.0,Alta,
+2026-10-27,16,443728.58,917.58,442811.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,75.13,400.0,Alta,
+2026-10-27,17,550211.58,917.58,549294.0,GUAJIRA 1,Térmica,Mezcla gas-carbón,Carbón,99.63,145.0,Alta,
+2026-10-27,18,794405.58,917.58,793488.0,PORCE II,Hidráulica (embalse),Agua,Agua,98.3,405.0,Alta,
+2026-10-27,19,909414.58,917.58,908497.0,TESORITO,Térmica,Gas natural,Gas,82.22,163.0,Alta,
+2026-10-27,20,909414.58,917.58,908497.0,TESORITO,Térmica,Gas natural,Gas,115.96,163.0,Alta,
+2026-10-27,21,909414.58,917.58,908497.0,TESORITO,Térmica,Gas natural,Gas,26.85,163.0,Alta,
+2026-10-27,22,794405.58,917.58,793488.0,PORCE II,Hidráulica (embalse),Agua,Agua,15.22,405.0,Alta,
+2026-10-27,23,492670.58,917.58,491753.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,240.15,306.0,Alta,
+2026-10-27,24,441917.58,917.58,441000.0,MIEL I,Hidráulica (embalse),Agua,Agua,380.61,384.0,Alta,

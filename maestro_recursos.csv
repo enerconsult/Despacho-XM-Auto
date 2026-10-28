@@ -187,6 +187,7 @@ GD CAPILLA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,S
 GD CARACOL I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL I,5F41,OTAG,exacto,1.0,
 GD CARACOL II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL II,5F3Y,OTAG,exacto,1.0,
 GD CARACOL III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL III,5F3X,OTAG,exacto,1.0,
+GD CARACOLI II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD CHICORAL,DC,Solar fotovoltaica,Sol,SOL,O,0.975,GD CHICORAL,3JPC,EPSG,exacto,1.0,
 GD CHIMBI,DC,Solar fotovoltaica,Sol,SOL,O,0.975,GD CHIMBI,3NGJ,EPSG,exacto,1.0,
 GD CHIRIGUANA NORTE I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CHIRIGUANA NORTE IV,5LSO,UNGG,aproximado,0.98,
@@ -246,6 +247,7 @@ GD GRANJA SOLAR EL BOTE,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/no
 GD GRANJA SOLAR SAN AGUSTIN,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD GUADALUPE I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD GY SAN MARTIN II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ISABELA,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD JARDINCITO,DC,Solar fotovoltaica,Sol,SOL,O,,,,,heurística por nombre,0.0,SI
 GD LA CACICA,DC,Solar fotovoltaica,Sol,SOL,O,,,,,heurística por nombre,0.0,SI
 GD LA CATEDRAL,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LA CATEDRAL,5H1R,UNGG,exacto,1.0,
@@ -260,6 +262,7 @@ GD LAS MERCEDES I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS MERCEDES I,5F42,FE
 GD LAS MERCEDES II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS MERCEDES II,5F6Z,FERG,exacto,1.0,
 GD LAS PILONERAS,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD LAS PILONERAS,5H1N,UNGG,exacto,1.0,
 GD LEGACY,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD LOS APOSTOLES,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LOS CHORROS,DC,Solar fotovoltaica,Sol,SOL,O,0.6,GD LOS CHORROS,3JPE,EPSG,exacto,1.0,
 GD LOS MANGOS I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD LOS MANGOS II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
@@ -337,6 +340,7 @@ GD TAURAMENA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0
 GD TAURUS IX,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD TAURUS IX,5QFI,UNGG,exacto,1.0,
 GD TAURUS VIII,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD TAURUS VIII,5QFG,UNGG,exacto,1.0,
 GD TAURUS X,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD TAURUS X,5QFK,UNGG,exacto,1.0,
+GD TERRACOTA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD TITAN SOLAR,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD VEGA I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD VEGA I,5SCX,BIAG,exacto,1.0,
 GD VEGA II,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD VEGA II,5SCK,BIAG,exacto,1.0,

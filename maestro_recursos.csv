@@ -154,6 +154,7 @@ FLORES I CC,DC,Térmica,Gas,GASMBT,T,160.0,TERMOFLORES GENERA.,TFL1,TMFG,manual,
 FLORIDA,DC,PCH / hidráulica menor,Agua,AGUA,O,19.9,FLORIDA 2,FLRD,CDIG,aproximado,0.88,SI
 FUNDACION,DC,Solar fotovoltaica,Sol,SOL,V,100.0,FUNDACION,3HF5,ENDG,exacto,1.0,
 GANDALF,DC,Solar fotovoltaica,Sol,SOL,O,0.996,GANDALF,3JQC,UNGG,exacto,1.0,
+GD AGRICOLA SUGAR CANE SAS,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD AGUSTIN I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD AGUSTIN I,5BPX,UNGG,exacto,1.0,
 GD AGUSTIN II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD AGUSTIN II,5QFM,UNGG,exacto,1.0,
 GD AGUSTIN III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD AGUSTIN III,5QTA,UNGG,exacto,1.0,
@@ -342,6 +343,7 @@ GD TAURUS VIII,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD TAURUS VIII,5QFG,UNGG,exac
 GD TAURUS X,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD TAURUS X,5QFK,UNGG,exacto,1.0,
 GD TERRACOTA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD TITAN SOLAR,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD TUTA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD VEGA I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD VEGA I,5SCX,BIAG,exacto,1.0,
 GD VEGA II,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD VEGA II,5SCK,BIAG,exacto,1.0,
 GD VITERBO I,DC,Solar fotovoltaica,Sol,SOL,O,0.97,GD VITERBO I,5PO1,ELIG,exacto,1.0,

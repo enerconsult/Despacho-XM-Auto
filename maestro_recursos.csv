@@ -79,8 +79,11 @@ BELLO,DC,PCH / hidráulica menor,Agua,AGUA,O,0.35,BELLO GENERADOR,BLL3,EPMG,exac
 BELMONTE,DC,PCH / hidráulica menor,Agua,AGUA,O,3.4,MENOR BELMONTE,BLM1,EEPG,exacto,1.0,
 BETANIA,DC,Hidráulica (embalse),Agua,AGUA,H,540.0,BETANIA GENERADOR,CHBG,ENDG,exacto,1.0,
 BIOENERGY,DC,Cogeneración / otros,Biomasa/Otros,OTROS,O,19.9,BIOENERGY,2SXQ,CHVG,exacto,1.0,
-BOSQUES SOLARES DE LOS LLANOS 4,DC,Solar fotovoltaica,Sol,SOL,O,19.9,BOSQUES SOLARES DE LOS LLANOS 4,3EFY,ISGG,exacto,1.0,
-BOSQUES SOLARES DE LOS LLANOS 5,DC,Solar fotovoltaica,Sol,SOL,O,17.9,BOSQUES SOLARES DE LOS LLANOS 5,3EDL,ISGG,exacto,1.0,
+BOSQUES SOLARES DE LOS LLANOS I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+BOSQUES SOLARES DE LOS LLANOS II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+BOSQUES SOLARES DE LOS LLANOS III,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+BOSQUES SOLARES DE LOS LLANOS IV,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+BOSQUES SOLARES DE LOS LLANOS V,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 BSB 500,DC,Solar fotovoltaica,Sol,SOL,O,19.9,BSB 500,3PXE,ISGG,exacto,1.0,
 BSB 501,DC,Solar fotovoltaica,Sol,SOL,O,19.9,BSB 501,3PXC,ISGG,exacto,1.0,
 BSB 502,DC,Solar fotovoltaica,Sol,SOL,O,19.9,BSB 502,3PXF,ISGG,exacto,1.0,
@@ -608,9 +611,6 @@ TERMOYOPAL G5,DC,Térmica,Gas,GASMBT,T,50.0,TERMOYOPAL G5,TYP5,TYPG,exacto,1.0,
 TESORITO,DC,Térmica,Gas,GASMBT,T,200.0,TESORITO,3ENA,EPSG,exacto,1.0,
 TIERRA LINDA,DC,Solar fotovoltaica,Sol,SOL,O,9.9,TIERRA LINDA,3HBN,AAGG,exacto,1.0,
 TOLU SOLAR,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
-TRINA-VATIA BSLI,DC,Solar fotovoltaica,Sol,SOL,O,19.9,TRINA-VATIA BSLI,2ZP9,ISGG,exacto,1.0,
-TRINA-VATIA BSLII,DC,Solar fotovoltaica,Sol,SOL,O,19.9,TRINA-VATIA BSLI,2ZP9,ISGG,aproximado,0.97,
-TRINA-VATIA BSLIII,DC,Solar fotovoltaica,Sol,SOL,O,19.9,TRINA-VATIA BSLI,2ZP9,ISGG,aproximado,0.94,
 TUNJITA,DC,Hidráulica (filo de agua),Agua,AGUA,F,21.0,PCH TUNJITA GENERACIÓN,TUJ1,CHVG,manual,1.0,
 TZ II,DC,PCH / hidráulica menor,Agua,AGUA,O,10.5,TZ II,3H2U,CTZG,exacto,1.0,
 UNION,DC,PCH / hidráulica menor,Agua,AGUA,O,0.7,MENOR UNIÓN,UNN1,CALG,exacto,1.0,

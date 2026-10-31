@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-01,1,391000.0,0.0,391000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,332.31,560.0,Alta,
+2026-11-01,2,391000.0,0.0,391000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,21.96,560.0,Alta,
+2026-11-01,3,390100.0,0.0,390100.0,MIEL I,Hidráulica (embalse),Agua,Agua,132.44,387.0,Alta,
+2026-11-01,4,390000.0,0.0,390000.0,GUATRON,Hidráulica (embalse),Agua,Agua,302.07,369.0,Alta,
+2026-11-01,5,390000.0,0.0,390000.0,GUATRON,Hidráulica (embalse),Agua,Agua,194.89,369.0,Alta,
+2026-11-01,6,390000.0,0.0,390000.0,GUATRON,Hidráulica (embalse),Agua,Agua,44.87,369.0,Alta,
+2026-11-01,7,377047.0,0.0,377047.0,BETANIA,Hidráulica (embalse),Agua,Agua,19.35,492.0,Alta,
+2026-11-01,8,250980.0,0.0,250980.0,TASAJERO 2,Térmica,Carbón,Carbón,69.63,170.0,Media (empate),"GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, ZIPAEMG 3, PAIPA 1"
+2026-11-01,9,198915.0,0.0,198915.0,ALBAN,Hidráulica (embalse),Agua,Agua,388.63,405.0,Media (empate),"VILLANUEVA, PAIPA 4, GECELCA 32, GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, TASAJERO 2, ZIPAEMG 3, PAIPA 1"
+2026-11-01,10,198915.0,0.0,198915.0,ALBAN,Hidráulica (embalse),Agua,Agua,205.2,405.0,Media (empate),"VILLANUEVA, PAIPA 4, GECELCA 32, GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, TASAJERO 2, ZIPAEMG 3, PAIPA 1"
+2026-11-01,11,198915.0,0.0,198915.0,ALBAN,Hidráulica (embalse),Agua,Agua,245.68,405.0,Media (empate),"VILLANUEVA, PAIPA 4, GECELCA 32, GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, TASAJERO 2, ZIPAEMG 3, PAIPA 1"
+2026-11-01,12,237382.0,0.0,237382.0,PAIPA 4,Térmica,Carbón,Carbón,70.94,164.0,Alta (desambiguada por MPO),"GECELCA 32, GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, TASAJERO 2, ZIPAEMG 3, PAIPA 1"
+2026-11-01,13,249917.0,0.0,249917.0,GECELCA 32,Térmica,Carbón,Carbón,139.44,240.0,Alta (desambiguada por MPO),"GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, TASAJERO 2, ZIPAEMG 3, PAIPA 1"
+2026-11-01,14,250980.0,0.0,250980.0,TASAJERO 2,Térmica,Carbón,Carbón,156.6,170.0,Media (empate),"GECELCA 3, PAIPA 2, PAIPA 3, TASAJERO 1, ZIPAEMG 3, PAIPA 1"
+2026-11-01,15,287041.0,0.0,287041.0,ZIPAEMG 3,Térmica,Carbón,Carbón,47.46,63.0,Media (empate),PAIPA 1
+2026-11-01,16,377047.0,0.0,377047.0,BETANIA,Hidráulica (embalse),Agua,Agua,326.06,492.0,Alta,
+2026-11-01,17,390100.0,0.0,390100.0,MIEL I,Hidráulica (embalse),Agua,Agua,207.87,387.0,Alta,
+2026-11-01,18,391000.0,0.0,391000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,429.4,560.0,Alta,
+2026-11-01,19,410140.0,0.0,410140.0,GUAVIO,Hidráulica (embalse),Agua,Agua,671.04,1250.0,Alta,
+2026-11-01,20,410140.0,0.0,410140.0,GUAVIO,Hidráulica (embalse),Agua,Agua,748.44,1250.0,Alta,
+2026-11-01,21,410140.0,0.0,410140.0,GUAVIO,Hidráulica (embalse),Agua,Agua,816.02,1250.0,Alta,
+2026-11-01,22,410140.0,0.0,410140.0,GUAVIO,Hidráulica (embalse),Agua,Agua,182.53,1250.0,Alta,
+2026-11-01,23,398000.0,0.0,398000.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,85.03,306.0,Alta,
+2026-11-01,24,391000.0,0.0,391000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,174.78,560.0,Alta,

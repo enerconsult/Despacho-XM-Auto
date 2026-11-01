@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-02,1,396000.0,0.0,396000.0,GUATRON,Hidráulica (embalse),Agua,Agua,334.18,369.0,Alta,
+2026-11-02,2,396000.0,0.0,396000.0,GUATRON,Hidráulica (embalse),Agua,Agua,36.06,369.0,Alta,
+2026-11-02,3,395000.0,0.0,395000.0,MIEL I,Hidráulica (embalse),Agua,Agua,183.63,387.0,Alta,
+2026-11-02,4,395000.0,0.0,395000.0,MIEL I,Hidráulica (embalse),Agua,Agua,12.35,387.0,Alta,
+2026-11-02,5,385000.0,0.0,385000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,108.59,170.0,Alta,
+2026-11-02,6,385000.0,0.0,385000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,88.45,170.0,Alta,
+2026-11-02,7,366776.0,0.0,366776.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,74.98,306.0,Alta,
+2026-11-02,8,365405.0,0.0,365405.0,BETANIA,Hidráulica (embalse),Agua,Agua,10.44,492.0,Alta,
+2026-11-02,9,262272.0,0.0,262272.0,GECELCA 3,Térmica,Carbón,Carbón,63.58,155.0,Media (empate),"ZIPAEMG 3, PAIPA 1, PAIPA 3"
+2026-11-02,10,262230.0,0.0,262230.0,PAIPA 2,Térmica,Carbón,Carbón,27.19,72.0,Alta (desambiguada por MPO),"ZIPAEMG 3, GECELCA 3, PAIPA 1, PAIPA 3"
+2026-11-02,11,251980.0,0.0,251980.0,TASAJERO 1,Térmica,Carbón,Carbón,149.25,165.0,Alta (desambiguada por MPO),"PAIPA 2, ZIPAEMG 3, GECELCA 3, PAIPA 1, PAIPA 3"
+2026-11-02,12,251980.0,0.0,251980.0,TASAJERO 1,Térmica,Carbón,Carbón,149.21,165.0,Alta (desambiguada por MPO),"PAIPA 2, ZIPAEMG 3, GECELCA 3, PAIPA 1, PAIPA 3"
+2026-11-02,13,262272.0,0.0,262272.0,GECELCA 3,Térmica,Carbón,Carbón,96.5,155.0,Media (empate),"ZIPAEMG 3, PAIPA 1, PAIPA 3"
+2026-11-02,14,365405.0,0.0,365405.0,BETANIA,Hidráulica (embalse),Agua,Agua,99.74,492.0,Alta,
+2026-11-02,15,366776.0,0.0,366776.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,96.52,306.0,Alta,
+2026-11-02,16,395000.0,0.0,395000.0,MIEL I,Hidráulica (embalse),Agua,Agua,180.19,387.0,Alta,
+2026-11-02,17,400000.0,0.0,400000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,228.28,560.0,Alta,
+2026-11-02,18,424156.0,0.0,424156.0,GUAVIO,Hidráulica (embalse),Agua,Agua,224.12,1250.0,Alta,
+2026-11-02,19,434281.0,0.0,434281.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,3.74,400.0,Alta,
+2026-11-02,20,434281.0,0.0,434281.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,32.08,400.0,Alta,
+2026-11-02,21,434281.0,0.0,434281.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,71.02,400.0,Alta,
+2026-11-02,22,424156.0,0.0,424156.0,GUAVIO,Hidráulica (embalse),Agua,Agua,643.69,1250.0,Alta,
+2026-11-02,23,424156.0,0.0,424156.0,GUAVIO,Hidráulica (embalse),Agua,Agua,118.88,1250.0,Alta,
+2026-11-02,24,400000.0,0.0,400000.0,GUATAPE,Hidráulica (embalse),Agua,Agua,323.91,560.0,Alta,

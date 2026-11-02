@@ -192,6 +192,7 @@ GD CARACOL I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL I,5F41,OTAG,exacto,
 GD CARACOL II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL II,5F3Y,OTAG,exacto,1.0,
 GD CARACOL III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL III,5F3X,OTAG,exacto,1.0,
 GD CARACOLI II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD CARACOLI III,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD CHICORAL,DC,Solar fotovoltaica,Sol,SOL,O,0.975,GD CHICORAL,3JPC,EPSG,exacto,1.0,
 GD CHIMBI,DC,Solar fotovoltaica,Sol,SOL,O,0.975,GD CHIMBI,3NGJ,EPSG,exacto,1.0,
 GD CHIRIGUANA NORTE I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CHIRIGUANA NORTE IV,5LSO,UNGG,aproximado,0.98,
@@ -338,6 +339,7 @@ GD SOL Y CIELO XI,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),
 GD SOL Y CIELO XII,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD SOL Y CIELO XIII,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD SOL Y CIELO XIV,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD SOLAR CARACOLI I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD SOLYCIELO 9,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD SOLYCIELO 9,5JG6,UNGG,exacto,1.0,
 GD SUAMOX,DC,Solar fotovoltaica,Sol,SOL,O,0.925,GD SUAMOX,5NPT,EBSG,exacto,1.0,
 GD TAURAMENA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI

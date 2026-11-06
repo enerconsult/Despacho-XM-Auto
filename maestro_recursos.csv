@@ -188,6 +188,7 @@ GD CANARIOS I,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD CANARIOS I,5O1U,OTAG,exact
 GD CANARIOS II,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD CANARIOS II,5O1W,OTAG,exacto,1.0,
 GD CANARIOS III,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD CANARIOS III,5OWY,OTAG,exacto,1.0,
 GD CAPILLA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD CAPRICORN,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD CARACOL I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL I,5F41,OTAG,exacto,1.0,
 GD CARACOL II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL II,5F3Y,OTAG,exacto,1.0,
 GD CARACOL III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CARACOL III,5F3X,OTAG,exacto,1.0,
@@ -199,6 +200,7 @@ GD CHIRIGUANA NORTE I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CHIRIGUANA NORTE I
 GD CHIRIGUANA NORTE II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CHIRIGUANA NORTE II,5LSN,UNGG,exacto,1.0,
 GD CHIRIGUANA NORTE IV,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CHIRIGUANA NORTE IV,5LSO,UNGG,exacto,1.0,
 GD CORALITO,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CORALITO,5IVZ,SNCG,exacto,1.0,
+GD CRYSTAL,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD CSF ARENALES I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD CSF ARENALES I,5ISN,GCYG,exacto,1.0,
 GD CSF PINONES,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD DELTA II,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD DELTA III,5WUX,BIAG,aproximado,0.96,
@@ -221,6 +223,9 @@ GD EMPERATRIZ II,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD EMPERATRIZ II,5J8J,SNCG
 GD ENCANTO,DC,Solar fotovoltaica,Sol,SOL,O,0.986,AGPE EL ENCANTO,3HWK,NMRG,aproximado,0.82,SI
 GD ERCO BELEN I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO BELEN II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ERCO FRAGATA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ERCO FRAGATA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ERCO FRAGATA III,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO GOLONDRINA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO GOLONDRINA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO GUAMO I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO I,4VYB,ERRG,exacto,1.0,
@@ -308,6 +313,7 @@ GD PISINGO II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,
 GD POLARIS II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD POLARIS II,5BQA,UNGG,exacto,1.0,
 GD POLARIS III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD POLARIS III,5JQL,BIAG,exacto,1.0,
 GD POLARIS IV,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD POSEIDON,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD PULOY,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD PULOY,4XUX,UNGG,exacto,1.0,
 GD PXV I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD PXV I,5AUE,ESNG,exacto,1.0,
 GD PXV II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI

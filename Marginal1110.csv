@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-10,1,303638.0,0.0,303638.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,153.91,306.0,Alta,
+2026-11-10,2,280000.0,0.0,280000.0,MIEL I,Hidráulica (embalse),Agua,Agua,383.36,393.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-10,3,280000.0,0.0,280000.0,MIEL I,Hidráulica (embalse),Agua,Agua,139.0,393.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-10,4,280000.0,0.0,280000.0,MIEL I,Hidráulica (embalse),Agua,Agua,12.84,393.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-10,5,280000.0,0.0,280000.0,MIEL I,Hidráulica (embalse),Agua,Agua,169.25,393.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-10,6,297323.0,0.0,297323.0,ZIPAEMG 5,Térmica,Carbón,Carbón,28.07,58.0,Alta,
+2026-11-10,7,280000.0,0.0,280000.0,MIEL I,Hidráulica (embalse),Agua,Agua,266.35,393.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-10,8,263360.0,0.0,263360.0,GECELCA 3,Térmica,Carbón,Carbón,93.94,155.0,Alta (desambiguada por MPO),"PAIPA 3, TASAJERO 2, TASAJERO 1, ZIPAEMG 5"
+2026-11-10,9,262230.0,0.0,262230.0,PAIPA 2,Térmica,Carbón,Carbón,39.29,72.0,Alta (desambiguada por MPO),"GECELCA 3, PAIPA 3, TASAJERO 2, TASAJERO 1, ZIPAEMG 5"
+2026-11-10,10,259701.0,0.0,259701.0,BETANIA,Hidráulica (embalse),Agua,Agua,443.36,492.0,Alta (desambiguada por MPO),"PAIPA 2, GECELCA 3, PAIPA 3, TASAJERO 2, TASAJERO 1, ZIPAEMG 5"
+2026-11-10,11,262230.0,0.0,262230.0,PAIPA 2,Térmica,Carbón,Carbón,49.84,72.0,Alta (desambiguada por MPO),"GECELCA 3, PAIPA 3, TASAJERO 2, TASAJERO 1, ZIPAEMG 5"
+2026-11-10,12,266000.0,0.0,266000.0,TASAJERO 1,Térmica,Carbón,Carbón,65.28,165.0,Media (empate),"PAIPA 3, TASAJERO 2, ZIPAEMG 5"
+2026-11-10,13,266000.0,0.0,266000.0,TASAJERO 1,Térmica,Carbón,Carbón,146.03,165.0,Media (empate),"PAIPA 3, TASAJERO 2, ZIPAEMG 5"
+2026-11-10,14,280000.0,0.0,280000.0,MIEL I,Hidráulica (embalse),Agua,Agua,132.0,393.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-10,15,303638.0,0.0,303638.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,105.96,306.0,Alta,
+2026-11-10,16,306455.0,0.0,306455.0,GUAVIO,Hidráulica (embalse),Agua,Agua,390.92,1250.0,Alta,
+2026-11-10,17,306455.0,0.0,306455.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1142.21,1250.0,Alta,
+2026-11-10,18,347416.0,0.0,347416.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,177.88,200.0,Alta,
+2026-11-10,19,1069713.0,0.0,1069713.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,29.3,118.0,Alta,
+2026-11-10,20,1069713.0,0.0,1069713.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,4.74,118.0,Alta,
+2026-11-10,21,1069713.0,0.0,1069713.0,,,,,,,Sin candidato,
+2026-11-10,22,347416.0,0.0,347416.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,156.52,200.0,Alta,
+2026-11-10,23,306455.0,0.0,306455.0,GUAVIO,Hidráulica (embalse),Agua,Agua,779.26,1250.0,Alta,
+2026-11-10,24,306455.0,0.0,306455.0,GUAVIO,Hidráulica (embalse),Agua,Agua,165.08,1250.0,Alta,

@@ -236,6 +236,8 @@ GD ERCO ISIDORI,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO ISIDORI,5LTB,ERRG,e
 GD ERCO LAS PIEDRAS I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO LAS PIEDRAS I,5JJC,ERRG,exacto,1.0,
 GD ERCO LAS PIEDRAS II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO LAS PIEDRAS I,5JJC,ERRG,aproximado,0.98,
 GD ERCO MARIANGOLA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO MARIANGOLA,4ZEP,ERRG,exacto,1.0,
+GD ERCO MIRLA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ERCO MIRLA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO PALMAS,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO PALMAS,5FPV,ERRG,exacto,1.0,
 GD ERCO PALMAS II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO SALDANA I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO SALDANA I,3Q87,ERRG,exacto,1.0,

@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-11,1,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1164.13,1250.0,Alta,
+2026-11-11,2,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,856.97,1250.0,Alta,
+2026-11-11,3,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,612.14,1250.0,Alta,
+2026-11-11,4,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,486.45,1250.0,Alta,
+2026-11-11,5,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,624.69,1250.0,Alta,
+2026-11-11,6,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1019.81,1250.0,Alta,
+2026-11-11,7,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,773.57,1250.0,Alta,
+2026-11-11,8,297821.99,498.99,297323.0,ZIPAEMG 5,Térmica,Carbón,Carbón,49.71,58.0,Alta,
+2026-11-11,9,276498.99,498.99,276000.0,MIEL I,Hidráulica (embalse),Agua,Agua,374.63,393.0,Media (empate),"PAIPA 1, ZIPAEMG 5"
+2026-11-11,10,276498.99,498.99,276000.0,MIEL I,Hidráulica (embalse),Agua,Agua,274.53,393.0,Media (empate),"PAIPA 1, ZIPAEMG 5"
+2026-11-11,11,276498.99,498.99,276000.0,MIEL I,Hidráulica (embalse),Agua,Agua,390.18,393.0,Media (empate),"PAIPA 1, ZIPAEMG 5"
+2026-11-11,12,297167.99,498.99,296669.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,277.68,306.0,Alta (desambiguada por MPO),ZIPAEMG 5
+2026-11-11,13,297821.99,498.99,297323.0,ZIPAEMG 5,Térmica,Carbón,Carbón,15.32,58.0,Alta,
+2026-11-11,14,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,288.3,1000.0,Alta,
+2026-11-11,15,301471.99,498.99,300973.0,GUAVIO,Hidráulica (embalse),Agua,Agua,945.77,1000.0,Alta,
+2026-11-11,16,348761.99,498.99,348263.0,GUATAPE,Hidráulica (embalse),Agua,Agua,225.12,420.0,Alta,
+2026-11-11,17,383498.99,498.99,383000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,332.61,930.0,Alta,
+2026-11-11,18,383498.99,498.99,383000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,844.1,930.0,Alta,
+2026-11-11,19,1068156.99,498.99,1067658.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,28.41,118.0,Alta,
+2026-11-11,20,1068156.99,498.99,1067658.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,20.17,118.0,Alta,
+2026-11-11,21,943119.99,498.99,942621.0,FLORES 4 CC,Térmica,Gas natural,Gas,347.79,435.0,Alta,
+2026-11-11,22,383498.99,498.99,383000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,832.62,930.0,Alta,
+2026-11-11,23,383498.99,498.99,383000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,265.27,930.0,Alta,
+2026-11-11,24,348761.99,498.99,348263.0,GUATAPE,Hidráulica (embalse),Agua,Agua,128.06,420.0,Alta,

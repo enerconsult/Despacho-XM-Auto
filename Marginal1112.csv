@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-12,1,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,782.48,1250.0,Alta,
+2026-11-12,2,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,448.91,1250.0,Alta,
+2026-11-12,3,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,212.01,1250.0,Alta,
+2026-11-12,4,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,95.48,1250.0,Alta,
+2026-11-12,5,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,225.53,1250.0,Alta,
+2026-11-12,6,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,592.36,1250.0,Alta,
+2026-11-12,7,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,351.56,1250.0,Alta,
+2026-11-12,8,283000.0,0.0,283000.0,MIEL I,Hidráulica (embalse),Agua,Agua,364.71,393.0,Alta (desambiguada por MPO),PAIPA 1
+2026-11-12,9,283000.0,0.0,283000.0,MIEL I,Hidráulica (embalse),Agua,Agua,69.73,393.0,Alta (desambiguada por MPO),PAIPA 1
+2026-11-12,10,274147.0,0.0,274147.0,PAIPA 3,Térmica,Carbón,Carbón,65.7,70.0,Alta (desambiguada por MPO),PAIPA 1
+2026-11-12,11,283000.0,0.0,283000.0,MIEL I,Hidráulica (embalse),Agua,Agua,76.9,393.0,Alta (desambiguada por MPO),PAIPA 1
+2026-11-12,12,283000.0,0.0,283000.0,MIEL I,Hidráulica (embalse),Agua,Agua,321.06,393.0,Alta (desambiguada por MPO),PAIPA 1
+2026-11-12,13,283000.0,0.0,283000.0,MIEL I,Hidráulica (embalse),Agua,Agua,371.57,393.0,Alta (desambiguada por MPO),PAIPA 1
+2026-11-12,14,295128.0,0.0,295128.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,243.95,306.0,Alta,
+2026-11-12,15,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,728.71,1250.0,Alta,
+2026-11-12,16,333249.0,0.0,333249.0,URRA,Hidráulica (embalse),Agua,Agua,124.6,160.0,Alta,
+2026-11-12,17,347799.0,0.0,347799.0,GUATAPE,Hidráulica (embalse),Agua,Agua,372.0,420.0,Alta,
+2026-11-12,18,376685.0,0.0,376685.0,PORCE II,Hidráulica (embalse),Agua,Agua,220.18,405.0,Alta,
+2026-11-12,19,1070368.0,0.0,1070368.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,193.29,213.0,Alta,
+2026-11-12,20,1070368.0,0.0,1070368.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,145.2,213.0,Alta,
+2026-11-12,21,1070368.0,0.0,1070368.0,,,,,,,Sin candidato,
+2026-11-12,22,376685.0,0.0,376685.0,PORCE II,Hidráulica (embalse),Agua,Agua,153.62,405.0,Alta,
+2026-11-12,23,342176.0,0.0,342176.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,195.22,200.0,Alta,
+2026-11-12,24,295404.0,0.0,295404.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1136.52,1250.0,Alta,

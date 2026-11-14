@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-15,1,456041.0,0.0,456041.0,PLAYAS,Hidráulica (embalse),Agua,Agua,9.55,207.0,Alta,
+2026-11-15,2,455000.0,0.0,455000.0,GUATRON,Hidráulica (embalse),Agua,Agua,90.68,370.0,Alta,
+2026-11-15,3,349098.0,0.0,349098.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,20.49,200.0,Alta,
+2026-11-15,4,344078.0,0.0,344078.0,GUATAPE,Hidráulica (embalse),Agua,Agua,239.37,420.0,Alta,
+2026-11-15,5,344078.0,0.0,344078.0,GUATAPE,Hidráulica (embalse),Agua,Agua,120.0,420.0,Alta,
+2026-11-15,6,338714.0,0.0,338714.0,BETANIA,Hidráulica (embalse),Agua,Agua,496.07,498.0,Alta,
+2026-11-15,7,338714.0,0.0,338714.0,BETANIA,Hidráulica (embalse),Agua,Agua,361.29,498.0,Alta,
+2026-11-15,8,317000.0,0.0,317000.0,MIEL I,Hidráulica (embalse),Agua,Agua,58.24,390.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,9,304761.0,0.0,304761.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1205.4,1250.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,10,304761.0,0.0,304761.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1055.25,1250.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,11,304761.0,0.0,304761.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1122.14,1250.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,12,316545.0,0.0,316545.0,LA TASAJERA,Hidráulica (embalse),Agua,Agua,106.6,306.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,13,317000.0,0.0,317000.0,MIEL I,Hidráulica (embalse),Agua,Agua,60.56,390.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,14,317000.0,0.0,317000.0,MIEL I,Hidráulica (embalse),Agua,Agua,258.59,390.0,Alta (desambiguada por MPO),ZIPAEMG 2
+2026-11-15,15,338714.0,0.0,338714.0,BETANIA,Hidráulica (embalse),Agua,Agua,259.37,498.0,Alta,
+2026-11-15,16,344078.0,0.0,344078.0,GUATAPE,Hidráulica (embalse),Agua,Agua,362.88,420.0,Alta,
+2026-11-15,17,456041.0,0.0,456041.0,PLAYAS,Hidráulica (embalse),Agua,Agua,119.63,207.0,Alta,
+2026-11-15,18,470411.0,0.0,470411.0,PORCE III,Hidráulica (embalse),Agua,Agua,261.72,360.0,Alta,
+2026-11-15,19,670076.0,0.0,670076.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,429.73,1240.0,Alta,
+2026-11-15,20,670076.0,0.0,670076.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,477.38,1240.0,Alta,
+2026-11-15,21,670076.0,0.0,670076.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,462.56,1240.0,Alta,
+2026-11-15,22,605412.0,0.0,605412.0,CALIMA,Hidráulica (embalse),Agua,Agua,38.26,132.0,Alta,
+2026-11-15,23,576547.0,0.0,576547.0,ALBAN,Hidráulica (embalse),Agua,Agua,33.04,405.0,Alta,
+2026-11-15,24,456041.0,0.0,456041.0,PLAYAS,Hidráulica (embalse),Agua,Agua,150.25,207.0,Alta,

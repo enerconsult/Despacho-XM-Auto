@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-16,1,458537.75,339.75,458198.0,GUATRON,Hidráulica (embalse),Agua,Agua,177.93,370.0,Alta,
+2026-11-16,2,366991.75,339.75,366652.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,126.41,200.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,3,351309.75,339.75,350970.0,BETANIA,Hidráulica (embalse),Agua,Agua,403.12,498.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,4,366991.75,339.75,366652.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,125.55,200.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,5,366991.75,339.75,366652.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,131.12,200.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,6,366991.75,339.75,366652.0,EL QUIMBO,Hidráulica (embalse),Agua,Agua,125.27,200.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,7,351309.75,339.75,350970.0,BETANIA,Hidráulica (embalse),Agua,Agua,253.31,498.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,8,324482.75,339.75,324143.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1222.03,1250.0,Media (empate),"ZIPAEMG 2, GUAJIRA 2"
+2026-11-16,9,324482.75,339.75,324143.0,GUAVIO,Hidráulica (embalse),Agua,Agua,827.83,1250.0,Media (empate),"ZIPAEMG 2, GUAJIRA 2"
+2026-11-16,10,324482.75,339.75,324143.0,GUAVIO,Hidráulica (embalse),Agua,Agua,726.69,1250.0,Media (empate),"ZIPAEMG 2, GUAJIRA 2"
+2026-11-16,11,324482.75,339.75,324143.0,GUAVIO,Hidráulica (embalse),Agua,Agua,796.8,1250.0,Media (empate),"ZIPAEMG 2, GUAJIRA 2"
+2026-11-16,12,324482.75,339.75,324143.0,GUAVIO,Hidráulica (embalse),Agua,Agua,993.19,1250.0,Media (empate),"ZIPAEMG 2, GUAJIRA 2"
+2026-11-16,13,324482.75,339.75,324143.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1210.91,1250.0,Media (empate),"ZIPAEMG 2, GUAJIRA 2"
+2026-11-16,14,340752.75,339.75,340413.0,GUATAPE,Hidráulica (embalse),Agua,Agua,190.15,420.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,15,351309.75,339.75,350970.0,BETANIA,Hidráulica (embalse),Agua,Agua,204.51,498.0,Alta (desambiguada por MPO),GUAJIRA 2
+2026-11-16,16,429888.75,339.75,429549.0,GUAJIRA 2,Térmica,Mezcla gas-carbón,Carbón,68.49,130.0,Alta,
+2026-11-16,17,475591.75,339.75,475252.0,PLAYAS,Hidráulica (embalse),Agua,Agua,38.7,207.0,Alta,
+2026-11-16,18,579182.75,339.75,578843.0,PORCE III,Hidráulica (embalse),Agua,Agua,291.59,540.0,Alta,
+2026-11-16,19,1066745.75,339.75,1066406.0,URRA,Hidráulica (embalse),Agua,Agua,19.5,312.0,Alta,
+2026-11-16,20,1066745.75,339.75,1066406.0,URRA,Hidráulica (embalse),Agua,Agua,148.57,312.0,Alta,
+2026-11-16,21,1066745.75,339.75,1066406.0,URRA,Hidráulica (embalse),Agua,Agua,75.62,312.0,Alta,
+2026-11-16,22,602479.75,339.75,602140.0,CALIMA,Hidráulica (embalse),Agua,Agua,100.1,132.0,Alta,
+2026-11-16,23,579182.75,339.75,578843.0,PORCE III,Hidráulica (embalse),Agua,Agua,300.16,540.0,Alta,
+2026-11-16,24,475591.75,339.75,475252.0,PLAYAS,Hidráulica (embalse),Agua,Agua,34.25,207.0,Alta,

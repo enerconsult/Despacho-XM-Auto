@@ -290,6 +290,7 @@ GD LYRA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD MARIANGEL,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD MEISSA II,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD MEISSA II,5LON,GNYG,exacto,1.0,
 GD MGS 0013 LA MESA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD MGS 0013 LA MESA,5B15,UNGG,exacto,1.0,
+GD MOMPOX NORTE II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD NAOS I,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD NAOS I,3NLE,UNGG,exacto,1.0,
 GD NAOS II,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD NAOS II,4T9M,BIAG,exacto,1.0,
 GD NAOS III,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD NAOS III,4WP2,BIAG,exacto,1.0,
@@ -362,6 +363,7 @@ GD TITAN SOLAR,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0
 GD TUTA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD VEGA I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD VEGA I,5SCX,BIAG,exacto,1.0,
 GD VEGA II,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD VEGA II,5SCK,BIAG,exacto,1.0,
+GD VILLA SOL I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD VITERBO I,DC,Solar fotovoltaica,Sol,SOL,O,0.97,GD VITERBO I,5PO1,ELIG,exacto,1.0,
 GD VITERBO II,DC,Solar fotovoltaica,Sol,SOL,O,0.97,GD VITERBO II,5PO2,ELIG,exacto,1.0,
 GD WE202,ND,Solar fotovoltaica,Sol,SOL,O,0.99,GD WE202,5F3P,CERG,exacto,1.0,

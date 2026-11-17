@@ -232,6 +232,7 @@ GD ERCO GUAMO I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO I,4VYB,ERRG,e
 GD ERCO GUAMO II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO II,4UZU,ERRG,exacto,1.0,
 GD ERCO GUAMO III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO III,4ULY,ERRG,exacto,1.0,
 GD ERCO GUAMO IV,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO IV,4UM1,ERRG,exacto,1.0,
+GD ERCO HOLANDA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO ISIDORI,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO ISIDORI,5LTB,ERRG,exacto,1.0,
 GD ERCO LAS PIEDRAS I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO LAS PIEDRAS I,5JJC,ERRG,exacto,1.0,
 GD ERCO LAS PIEDRAS II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO LAS PIEDRAS I,5JJC,ERRG,aproximado,0.98,

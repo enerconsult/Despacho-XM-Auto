@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-19,1,604337.53,1121.53,603216.0,CALIMA,Hidráulica (embalse),Agua,Agua,98.72,132.0,Alta,
+2026-11-19,2,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,355.67,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,3,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,118.33,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,4,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,85.68,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,5,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,293.78,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,6,604337.53,1121.53,603216.0,,,,,,,Sin candidato,
+2026-11-19,7,566042.53,1121.53,564921.0,PRADO,Hidráulica (embalse),Agua,Agua,28.72,32.0,Alta,
+2026-11-19,8,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,175.85,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,9,481121.53,1121.53,480000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,37.01,170.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,10,458159.53,1121.53,457038.0,GUATRON,Hidráulica (embalse),Agua,Agua,304.08,370.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,11,481121.53,1121.53,480000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,51.81,170.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,12,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,71.52,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,13,535887.53,1121.53,534766.0,PORCE II,Hidráulica (embalse),Agua,Agua,142.84,405.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-19,14,566042.53,1121.53,564921.0,PRADO,Hidráulica (embalse),Agua,Agua,29.31,32.0,Alta,
+2026-11-19,15,821244.53,1121.53,820123.0,CARACOLI I,Solar fotovoltaica,Radiación solar,Sol,35.0,38.5,Alta,
+2026-11-19,16,847121.53,1121.53,846000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,659.66,1240.0,Alta,
+2026-11-19,17,847121.53,1121.53,846000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,944.69,1240.0,Alta,
+2026-11-19,18,943742.53,1121.53,942621.0,FLORES 4 CC,Térmica,Gas natural,Gas,133.21,435.0,Alta,
+2026-11-19,19,1130302.53,1121.53,1129181.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,125.84,165.0,Alta,
+2026-11-19,20,976805.53,1121.53,975684.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,545.48,555.0,Alta,
+2026-11-19,21,976805.53,1121.53,975684.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,457.68,555.0,Alta,
+2026-11-19,22,847121.53,1121.53,846000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,1238.19,1240.0,Alta,
+2026-11-19,23,847121.53,1121.53,846000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,672.9,1240.0,Alta,
+2026-11-19,24,821244.53,1121.53,820123.0,CHIVOR,Hidráulica (embalse),Agua,Agua,483.26,500.0,Alta,

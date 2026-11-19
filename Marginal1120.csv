@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-20,1,519273.0,0.0,519273.0,PORCE III,Hidráulica (embalse),Agua,Agua,292.4,660.0,Alta,
+2026-11-20,2,519273.0,0.0,519273.0,PORCE III,Hidráulica (embalse),Agua,Agua,97.7,660.0,Alta,
+2026-11-20,3,472396.0,0.0,472396.0,GUAJIRA 1,Térmica,Mezcla gas-carbón,Carbón,118.26,145.0,Alta,
+2026-11-20,4,460000.0,0.0,460000.0,JAGUAS,Hidráulica (embalse),Agua,Agua,143.12,170.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,5,472396.0,0.0,472396.0,GUAJIRA 1,Térmica,Mezcla gas-carbón,Carbón,79.17,145.0,Alta,
+2026-11-20,6,519273.0,0.0,519273.0,PORCE III,Hidráulica (embalse),Agua,Agua,265.42,660.0,Alta,
+2026-11-20,7,519273.0,0.0,519273.0,PORCE III,Hidráulica (embalse),Agua,Agua,53.87,660.0,Alta,
+2026-11-20,8,456820.0,0.0,456820.0,GUATRON,Hidráulica (embalse),Agua,Agua,141.62,370.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,9,418013.0,0.0,418013.0,BETANIA,Hidráulica (embalse),Agua,Agua,320.37,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,10,418013.0,0.0,418013.0,BETANIA,Hidráulica (embalse),Agua,Agua,162.27,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,11,418013.0,0.0,418013.0,BETANIA,Hidráulica (embalse),Agua,Agua,218.75,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,12,418013.0,0.0,418013.0,BETANIA,Hidráulica (embalse),Agua,Agua,409.87,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,13,418013.0,0.0,418013.0,BETANIA,Hidráulica (embalse),Agua,Agua,442.73,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,14,456820.0,0.0,456820.0,GUATRON,Hidráulica (embalse),Agua,Agua,288.14,370.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-20,15,519273.0,0.0,519273.0,PORCE III,Hidráulica (embalse),Agua,Agua,221.69,660.0,Alta,
+2026-11-20,16,619487.0,0.0,619487.0,ALBAN,Hidráulica (embalse),Agua,Agua,55.62,400.0,Alta,
+2026-11-20,17,820123.0,0.0,820123.0,CHIVOR,Hidráulica (embalse),Agua,Agua,316.88,500.0,Alta,
+2026-11-20,18,942621.0,0.0,942621.0,FLORES 4 CC,Térmica,Gas natural,Gas,304.66,435.0,Alta,
+2026-11-20,19,1291251.0,0.0,1291251.0,URRA,Hidráulica (embalse),Agua,Agua,175.7,312.0,Alta,
+2026-11-20,20,1291251.0,0.0,1291251.0,URRA,Hidráulica (embalse),Agua,Agua,115.76,312.0,Alta,
+2026-11-20,21,1142806.0,0.0,1142806.0,SALVAJINA,Hidráulica (embalse),Agua,Agua,58.39,95.0,Alta,
+2026-11-20,22,942621.0,0.0,942621.0,FLORES 4 CC,Térmica,Gas natural,Gas,185.89,435.0,Alta,
+2026-11-20,23,820123.0,0.0,820123.0,CHIVOR,Hidráulica (embalse),Agua,Agua,200.02,500.0,Alta,
+2026-11-20,24,607093.0,0.0,607093.0,CALIMA,Hidráulica (embalse),Agua,Agua,72.11,132.0,Alta,

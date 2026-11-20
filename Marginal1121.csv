@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-21,1,628344.99,221.99,628123.0,CHIVOR,Hidráulica (embalse),Agua,Agua,110.06,500.0,Alta,
+2026-11-21,2,588192.99,221.99,587971.0,PLAYAS,Hidráulica (embalse),Agua,Agua,108.92,207.0,Alta,
+2026-11-21,3,469291.99,221.99,469070.0,GUAJIRA 1,Térmica,Mezcla gas-carbón,Carbón,20.24,145.0,Alta,
+2026-11-21,4,452747.99,221.99,452526.0,GUATRON,Hidráulica (embalse),Agua,Agua,151.03,331.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,5,452747.99,221.99,452526.0,GUATRON,Hidráulica (embalse),Agua,Agua,159.02,331.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,6,452747.99,221.99,452526.0,GUATRON,Hidráulica (embalse),Agua,Agua,173.14,331.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,7,469291.99,221.99,469070.0,GUAJIRA 1,Térmica,Mezcla gas-carbón,Carbón,27.84,145.0,Alta,
+2026-11-21,8,399695.99,221.99,399474.0,BETANIA,Hidráulica (embalse),Agua,Agua,478.62,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,9,407477.99,221.99,407256.0,JAGUAS,Hidráulica (embalse),Agua,Agua,20.73,170.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,10,399695.99,221.99,399474.0,BETANIA,Hidráulica (embalse),Agua,Agua,393.43,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,11,399695.99,221.99,399474.0,BETANIA,Hidráulica (embalse),Agua,Agua,439.97,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,12,399695.99,221.99,399474.0,BETANIA,Hidráulica (embalse),Agua,Agua,486.51,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,13,399695.99,221.99,399474.0,BETANIA,Hidráulica (embalse),Agua,Agua,465.87,489.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,14,407477.99,221.99,407256.0,JAGUAS,Hidráulica (embalse),Agua,Agua,38.56,170.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,15,452747.99,221.99,452526.0,GUATRON,Hidráulica (embalse),Agua,Agua,153.42,331.0,Alta (desambiguada por MPO),GUAJIRA 1
+2026-11-21,16,588192.99,221.99,587971.0,PLAYAS,Hidráulica (embalse),Agua,Agua,206.23,207.0,Alta,
+2026-11-21,17,795624.99,221.99,795403.0,PORCE III,Hidráulica (embalse),Agua,Agua,86.37,700.0,Alta,
+2026-11-21,18,795624.99,221.99,795403.0,PORCE III,Hidráulica (embalse),Agua,Agua,444.51,700.0,Alta,
+2026-11-21,19,1302587.99,221.99,1302366.0,FLORES 4 CC,Térmica,Gas natural,Gas,232.0,435.0,Alta,
+2026-11-21,20,983305.99,221.99,983084.0,FLORES 4 CC,Térmica,Gas natural,Gas,215.11,435.0,Alta,
+2026-11-21,21,983305.99,221.99,983084.0,FLORES 4 CC,Térmica,Gas natural,Gas,42.36,435.0,Alta,
+2026-11-21,22,795624.99,221.99,795403.0,PORCE III,Hidráulica (embalse),Agua,Agua,331.85,700.0,Alta,
+2026-11-21,23,628344.99,221.99,628123.0,CHIVOR,Hidráulica (embalse),Agua,Agua,464.08,500.0,Alta,
+2026-11-21,24,628344.99,221.99,628123.0,CHIVOR,Hidráulica (embalse),Agua,Agua,88.49,500.0,Alta,

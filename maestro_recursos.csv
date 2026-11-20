@@ -328,6 +328,7 @@ GD PXV IV,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD PXV IV,5AUG,ESNG,exacto,1.0,
 GD RIGEL SOLAR,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ROCKY II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD SABANA DE TORRES,DC,Solar fotovoltaica,Sol,SOL,O,0.0,GD SABANA DE TORRES,5QFE,UNGG,exacto,1.0,
+GD SAN LUIS DE SINCE OCCIDENTE I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD SAN MARTIN,ND,Solar fotovoltaica,Sol,SOL,O,0.99,GD SAN MARTIN,4WWY,EMSG,exacto,1.0,
 GD SAN MARTIN I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD SAN MARTIN II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD SAN MARTIN II,4XQA,EMSG,exacto,1.0,

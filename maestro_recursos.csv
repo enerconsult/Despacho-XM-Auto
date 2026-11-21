@@ -176,6 +176,7 @@ GD BLANCA ENERGY II,DC,Solar fotovoltaica,Sol,SOL,O,0.1,GD BLANCA ENERGY I,4ZIO,
 GD BLANCA ENERGY III,DC,Solar fotovoltaica,Sol,SOL,O,0.1,GD BLANCA ENERGY I,4ZIO,CTEG,aproximado,0.95,
 GD BLANCA ENERGY SOLAR 23,DC,Solar fotovoltaica,Sol,SOL,O,0.1,GD BLANCA ENERGY SOLAR 23,5GF6,CTEG,exacto,1.0,
 GD BLANCA ENERGY SOLAR 24,DC,Solar fotovoltaica,Sol,SOL,O,0.1,GD BLANCA ENERGY SOLAR 24,5GF5,CTEG,exacto,1.0,
+GD BLANCA ENERGY XXXVIII,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD BOCAS DEL PALO,DC,Solar fotovoltaica,Sol,SOL,O,,,,,heurística por nombre,0.0,SI
 GD BONILLA A I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD BONILLA A I,5MAE,OTAG,exacto,1.0,
 GD BONILLA A II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD BONILLA A II,5MAG,OTAG,exacto,1.0,

@@ -234,9 +234,12 @@ GD ERCO GUAMO II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO II,4UZU,ERRG
 GD ERCO GUAMO III,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO III,4ULY,ERRG,exacto,1.0,
 GD ERCO GUAMO IV,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO GUAMO IV,4UM1,ERRG,exacto,1.0,
 GD ERCO HOLANDA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ERCO HOLANDA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO ISIDORI,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO ISIDORI,5LTB,ERRG,exacto,1.0,
 GD ERCO LAS PIEDRAS I,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO LAS PIEDRAS I,5JJC,ERRG,exacto,1.0,
 GD ERCO LAS PIEDRAS II,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO LAS PIEDRAS I,5JJC,ERRG,aproximado,0.98,
+GD ERCO MARACANA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD ERCO MARACANA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO MARIANGOLA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD ERCO MARIANGOLA,4ZEP,ERRG,exacto,1.0,
 GD ERCO MIRLA I,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD ERCO MIRLA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
@@ -292,6 +295,7 @@ GD LYRA II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD MARIANGEL,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD MEISSA II,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD MEISSA II,5LON,GNYG,exacto,1.0,
 GD MGS 0013 LA MESA,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD MGS 0013 LA MESA,5B15,UNGG,exacto,1.0,
+GD MGS 0030 COX CHIMA ORIENTE,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD MOMPOX NORTE II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD NAOS I,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD NAOS I,3NLE,UNGG,exacto,1.0,
 GD NAOS II,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD NAOS II,4T9M,BIAG,exacto,1.0,

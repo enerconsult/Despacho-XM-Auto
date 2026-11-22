@@ -1,0 +1,25 @@
+fecha,hora,costo_marginal,delta,mpo,planta_marginal,tecnologia,combustible,grupo_combustible,gen_marginal_mwh,disp_marginal_mw,confianza,otros_candidatos
+2026-11-23,1,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1195.49,1250.0,Alta,
+2026-11-23,2,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,936.19,1250.0,Alta,
+2026-11-23,3,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,759.99,1250.0,Alta,
+2026-11-23,4,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,659.5,1250.0,Alta,
+2026-11-23,5,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,801.95,1250.0,Alta,
+2026-11-23,6,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1194.09,1250.0,Alta,
+2026-11-23,7,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,1089.51,1250.0,Alta,
+2026-11-23,8,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,984.27,1250.0,Alta,
+2026-11-23,9,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,761.46,1250.0,Alta,
+2026-11-23,10,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,583.39,1250.0,Alta,
+2026-11-23,11,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,662.88,1250.0,Alta,
+2026-11-23,12,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,906.33,1250.0,Alta,
+2026-11-23,13,412697.0,0.0,412697.0,GUAVIO,Hidráulica (embalse),Agua,Agua,975.13,1250.0,Alta,
+2026-11-23,14,471259.0,0.0,471259.0,GUATRON,Hidráulica (embalse),Agua,Agua,67.08,331.0,Alta,
+2026-11-23,15,961985.0,0.0,961985.0,PORCE II,Hidráulica (embalse),Agua,Agua,88.93,405.0,Alta,
+2026-11-23,16,1008609.0,0.0,1008609.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,301.11,555.0,Alta,
+2026-11-23,17,1024114.0,0.0,1024114.0,FLORES 4 CC,Térmica,Gas natural,Gas,184.24,232.0,Alta,
+2026-11-23,18,1046405.0,0.0,1046405.0,TEBSAB CC,Térmica,Gas natural,Gas,462.37,791.0,Alta,
+2026-11-23,19,1380000.0,0.0,1380000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,377.23,1240.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-11-23,20,1380000.0,0.0,1380000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,360.47,1240.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-11-23,21,1380000.0,0.0,1380000.0,SAN CARLOS,Hidráulica (embalse),Agua,Agua,261.11,1240.0,Alta (desambiguada por MPO),TEBSAB CC
+2026-11-23,22,1046405.0,0.0,1046405.0,TEBSAB CC,Térmica,Gas natural,Gas,467.89,791.0,Alta,
+2026-11-23,23,1024114.0,0.0,1024114.0,FLORES 4 CC,Térmica,Gas natural,Gas,144.97,232.0,Alta,
+2026-11-23,24,1008609.0,0.0,1008609.0,TERMOCANDELARIA CC,Térmica,Gas natural,Gas,102.13,555.0,Alta,

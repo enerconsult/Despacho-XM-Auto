@@ -216,6 +216,10 @@ GD EL CASTILLO III,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD EL CASTILLO III,5O16,
 GD EL CASTILLO IV,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD EL CASTILLO IV,5O1C,OTAG,exacto,1.0,
 GD EL CASTILLO V,DC,Solar fotovoltaica,Sol,SOL,O,0.96,GD EL CASTILLO V,5O17,OTAG,exacto,1.0,
 GD EL MANDARINO,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD EL OBLIGADO II,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD EL OBLIGADO III,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD EL OBLIGADO IV,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
+GD EL OBLIGADO V,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
 GD EL PASO NORTE,DC,Solar fotovoltaica,Sol,SOL,O,0.99,GD EL PASO NORTE,5O14,COXG,exacto,1.0,
 GD EL ROBLE,DC,Solar fotovoltaica,Sol,SOL,O,,,,,heurística por nombre,0.0,SI
 GD EL TRIUNFO,DC,Solar fotovoltaica,Sol,SOL,V,,,,,sin Capains (OFEI/nombre),0.0,SI
